@@ -1,4 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "en-ca"
 title = "XIX 3D"
 theme = "xix"
+

@@ -1,0 +1,9 @@
+<head>
+    <title>{{ .Site.Title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
+    <meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
+    {{ "<!-- Main Stylesheet -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+</head>
