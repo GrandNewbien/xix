@@ -5,5 +5,9 @@
     <meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
     <meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
-    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+    <link rel="stylesheet" href="css/main.css">
+    {{ "<!-- Javascript -->" | safeHTML }}
+    <link rel="script" href="js/libs/ScrollMagic.min.js">
+    <link rel="script" href="js/libs/TweenMax.min.js">
+    <link rel="script" href="js/script.js">
 </head>
