@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: darkslategrey;
 }
 
 .car1 {
@@ -30,9 +31,10 @@ body {
 
 .info1, .info2, .info3 {
   display: grid;
-    color: darkgreen;
-    align-content: center;
-    justify-content: center;
+  color: darkgreen;
+  align-content: center;
+  justify-content: center;
+  background-color: coral;
 }
 
 .car1, .car2, .car3 {
@@ -41,7 +43,7 @@ body {
 
 }
 
-img {
+img.hero {
   width: 100%;
   height: 100%;
   object-fit: cover;

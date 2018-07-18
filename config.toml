@@ -6,11 +6,11 @@ theme = "xix"
 [params]
 
 [params.hero]
-    section1img = ""
-    section1txt = "Yo, we be XIX"
+    img1 = "http://placekitten.com/1080/1080"
+    txt1 = "Yo, we be XIX"
     
-    section2img = ""
-    section2txt = "Gimme the light - Sean Paul"
+    img2 = "http://placekitten.com/1080/1081"
+    txt2 = "Gimme the light - Sean Paul"
     
-    section3img = ""
-    section3txt = "Kappa"
+    img3 = "http://placekitten.com/1080/1082"
+    txt3 = "Kappa"

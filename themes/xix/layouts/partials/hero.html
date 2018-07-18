@@ -1,8 +1,8 @@
 <div class="hero">
-    <div class="car1"><img src="http://placekitten.com/1080/1080"></div>
-    <div class="info1">{{ .Site.Params.hero.section1txt }}</div>
-    <div class="car2"><img src="http://placekitten.com/1080/1080"></div>
-    <div class="info2">{{ .Site.Params.hero.section2txt }}</div>
-    <div class="car3"><img src="http://placekitten.com/1080/1080"></div>
-    <div class="info3">{{ .Site.Params.hero.section3txt }}</div>
+    <div class="car1"><img class="hero" src="{{ .Site.Params.hero.img1 }}"></div>
+    <div class="info1"><h2>{{ .Site.Params.hero.txt1 }}</h2></div>
+    <div class="car2"><img class="hero" src="{{ .Site.Params.hero.img2 }}"></div>
+    <div class="info2"><h2>{{ .Site.Params.hero.txt2 }}</h2></div>
+    <div class="car3"><img class="hero" src="{{ .Site.Params.hero.img3 }}"></div>
+    <div class="info3"><h2>{{ .Site.Params.hero.txt3 }}</h2></div>
 </div>
