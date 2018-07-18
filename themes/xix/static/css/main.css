@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .car1 {
     grid-area: car1;
   }
@@ -20,15 +25,31 @@
 
 .info3 {
     grid-area: info3;
+    height: 100%;
   }
 
 .info1, .info2, .info3 {
-    color: blue;
+  display: grid;
+    color: darkgreen;
+    align-content: center;
+    justify-content: center;
+}
+
+.car1, .car2, .car3 {
+  height: 50vh;
+  width: 100vw;
+
+}
+
+img {
+  max-width: 100%;
+
 }
 
 .hero {
+    width: 100vw;
     display: grid;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
         "car1"
         "info1"
@@ -36,12 +57,12 @@
         "info2"
         "car3"
         "info3";
-    width: 100%;
   }
 
   @media (min-width: 500px) {
     .hero {
-      grid-template-columns: 1fr 3fr;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100% 100%;
       grid-template-areas: 
         "car1  info1"
         "car2  info2"
@@ -50,5 +71,9 @@
     nav ul {
       display: flex;
       justify-content: space-between;
+    }
+    .car1, .car2, .car3 {
+      height: 100vh;
+      width: 50vw;
     }
   }
