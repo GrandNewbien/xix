@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: darkslategrey;
+  background-color: darkolivegreen;
 }
 
 .car1 {
@@ -35,12 +35,13 @@ body {
   align-content: center;
   justify-content: center;
   background-color: coral;
+  height: 50vh;
+  width: 100vw;
 }
 
 .car1, .car2, .car3 {
   height: 50vh;
   width: 100vw;
-
 }
 
 img.hero {
@@ -52,7 +53,6 @@ img.hero {
 .hero {
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
         "car1"
         "info1"
@@ -76,6 +76,10 @@ img.hero {
       justify-content: space-between;
     }
     .car1, .car2, .car3 {
+      height: 100vh;
+      width: 50vw;
+    }
+    .info1, .info2, .info3{
       height: 100vh;
       width: 50vw;
     }
