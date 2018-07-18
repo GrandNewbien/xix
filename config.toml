@@ -3,3 +3,14 @@ languageCode = "en-ca"
 title = "XIX 3D"
 theme = "xix"
 
+[params]
+
+[params.hero]
+    section1img = ""
+    section1txt = "Yo, we be XIX"
+    
+    section2img = ""
+    section2txt = "Gimme the light - Sean Paul"
+    
+    section3img = ""
+    section3txt = "Kappa"
