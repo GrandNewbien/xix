@@ -5,8 +5,8 @@ $(document).ready(function () {
     // Scene Handler
     var scene1 = new ScrollMagic.Scene({
       triggerElement: ".car1", // point of execution
-      duration: $(window).height(),
-      triggerHook: 0, 
+      duration: "100%",
+      triggerHook: -100, 
       reverse: true 
     })
     .setPin(".hero1") // the element we want to pin
@@ -17,7 +17,7 @@ $(document).ready(function () {
     // Scene2 Handler
     var scene2 = new ScrollMagic.Scene({
       triggerElement: ".car2", // point of execution
-      duration:$(window).height(), 
+      duration:"100%", 
       triggerHook: 0,
       reverse: true
     })
@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     var scene3 = new ScrollMagic.Scene({
         triggerElement: ".car3", // point of execution
-        duration:$(window).height(),
+        duration:"100%",
         triggerHook: 0,
         reverse: true
       })

@@ -16,6 +16,7 @@ body {
 
 .car1 {
     grid-area: car1;
+    opacity: 1;
   }
 
 .info1 {
@@ -54,6 +55,7 @@ body {
   height: 50vh;
   width: 100vw;
   position: relative;
+  object-fit: cover;
 }
 
 img.hero {
