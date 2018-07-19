@@ -5,18 +5,32 @@ $(document).ready(function () {
     // Scene Handler
     var scene1 = new ScrollMagic.Scene({
       triggerElement: ".car1", // point of execution
-      duration: $(window).height() - 100, // pin element for the window height - 1
+      duration: $(window).height(), // pin element for the window height - 1
       triggerHook: 0, // don't trigger until #pinned-trigger1 hits the top of the viewport
       reverse: true // allows the effect to trigger when scrolled in the reverse direction
     })
     .setPin(".car1") // the element we want to pin
-    .addTo(controller);
+    .addTo(controller)
+    .addIndicators();
     
     // Scene2 Handler
     var scene2 = new ScrollMagic.Scene({
       triggerElement: ".car2", // point of execution
-      duration:$(window).height() - 100 // pin the element for a total of 400px
+      duration:$(window).height(), // pin the element for a total of 400px
+      triggerHook: 0,
+      reverse: true
     })
     .setPin(".car2") // the element we want to pin
-    .addTo(controller);
+    .addTo(controller)
+    .addIndicators();
+
+    var scene3 = new ScrollMagic.Scene({
+        triggerElement: ".car3", // point of execution
+        duration:$(window).height(), // pin the element for a total of 400px
+        triggerHook: 0,
+        reverse: true
+      })
+      .setPin(".car3") // the element we want to pin
+      .addTo(controller)
+      .addIndicators();
   });

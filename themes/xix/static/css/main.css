@@ -38,11 +38,13 @@ body {
   background-color: coral;
   height: 50vh;
   width: 100vw;
+  position: relative;
 }
 
 .car1, .car2, .car3 {
   height: 50vh;
   width: 100vw;
+  position: relative;
 }
 
 img.hero {
