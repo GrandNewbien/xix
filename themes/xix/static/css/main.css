@@ -5,6 +5,15 @@ body {
   overflow-x: hidden;
 }
 
+.car{
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.car.fade-in{
+  opacity: 1;
+}
+
 .car1 {
     grid-area: car1;
   }
