@@ -15,7 +15,7 @@ $(document).ready(function () {
     // Scene2 Handler
     var scene2 = new ScrollMagic.Scene({
       triggerElement: ".car2", // point of execution
-      duration: 150 // pin the element for a total of 400px
+      duration:$(window).height() - 100 // pin the element for a total of 400px
     })
     .setPin(".car2") // the element we want to pin
     .addTo(controller);
