@@ -6,7 +6,7 @@ theme = "xix"
 [params]
 
 [params.hero]
-    img1 = "http://placekitten.com/1080/1080"
+    img1 = "http://placekitten.com/1000/1000"
     txt1 = "Yo, we be XIX"
     
     img2 = "http://placekitten.com/1080/1081"
