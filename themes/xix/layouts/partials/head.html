@@ -7,7 +7,7 @@
 
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
     {{ $bundlecss := resources.Get "css/main.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}" integrity="{{ $bundlecss.Data.Integrity }}">
     
     {{ "<!-- Javascript -->" | safeHTML }}
     {{ $jquery := resources.Get "js/libs/jquery-3.3.1.min.js" }}
