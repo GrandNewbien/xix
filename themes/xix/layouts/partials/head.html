@@ -7,10 +7,7 @@
 
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
     {{ $bundlecss := resources.Get "css/main.css" | minify | fingerprint }}
-
-    <link rel="stylesheet" href="{{ $bundlecss.Permalink }}">
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
-    
+    <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}">
     
     {{ "<!-- Javascript -->" | safeHTML }}
     {{ $jquery := resources.Get "js/libs/jquery-3.3.1.min.js" }}
@@ -19,5 +16,5 @@
     {{ $script := resources.Get "js/script.js"}}
     {{ $scrollmagicdebugger := resources.Get "js/libs/plugins/debug.addIndicators.min.js"}}
     {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $script $scrollmagicdebugger | resources.Concat "js/bundle.js" | minify | fingerprint}}
-    <script rel="script" src="{{ $bundlejs.Permalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
+    <script rel="script" src="{{ $bundlejs.RelPermalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
 </head>
