@@ -4,12 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
     <meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
+
     {{ "<!-- Main Stylesheet -->" | safeHTML }}
-    <link rel="stylesheet" href="css/main.css">
+    {{ $bundlecss := resources.Get "css/main.css" | minify | fingerprint }}
+
+    <link rel="stylesheet" href="{{ $bundlecss.Permalink }}">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    
+    
     {{ "<!-- Javascript -->" | safeHTML }}
-    <script rel="script" src="js/libs/jquery-3.3.1.min.js"></script>
-    <script rel="script" src="js/libs/ScrollMagic.min.js"></script>
-    <script rel="script" src="js/libs/TweenMax.min.js"></script>
-    <script rel="script" src="js/script.js"></script>
-    <script rel="script" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    {{ $jquery := resources.Get "js/libs/jquery-3.3.1.min.js" }}
+    {{ $scrollmagic := resources.Get "js/libs/ScrollMagic.min.js" }}
+    {{ $tweenmax := resources.Get "js/libs/TweenMax.min.js"}}
+    {{ $script := resources.Get "js/script.js"}}
+    {{ $scrollmagicdebugger := resources.Get "js/libs/plugins/debug.addIndicators.min.js"}}
+    {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $script $scrollmagicdebugger | resources.Concat "js/bundle.js" | minify | fingerprint}}
+    <script rel="script" src="{{ $bundlejs.Permalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
 </head>
