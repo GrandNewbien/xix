@@ -1,0 +1,10 @@
+{{ define "main" }}
+        {{ range .Pages}}
+            {{if not .Params.private}}
+                <ul>
+                    <li><a href="{{.URL}}">{{.Title}}</a></li>
+                    {{.Content}}
+                </ul>
+            {{end}}
+        {{end}}
+{{end}}
