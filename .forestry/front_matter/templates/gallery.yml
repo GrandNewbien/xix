@@ -32,4 +32,5 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/rarri.md
 - content/gallery/lambo.md
