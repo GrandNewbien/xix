@@ -31,5 +31,3 @@ fields:
     color_format: Hex
   name: colour
   label: Colour
-pages:
-- content/gallery/beemer.md
