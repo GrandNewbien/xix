@@ -77,6 +77,14 @@ img.hero {
         "info3";
   }
 
+.sketchfab-embed-wrapper{
+min-height: 400px;
+}
+
+.sketchfab-iframe{
+  min-height: 400px;
+}
+
   @media (min-width: 500px) {
     .hero {
       grid-template-columns: 50% 50%;

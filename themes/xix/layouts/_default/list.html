@@ -1,8 +1,4 @@
-<html>
-    {{ partial "head.html" .}}
-    <body>
-        {{ partial "nav.html" .}}
-
+{{ define "main" }}
         {{.Content}}
         {{ range .Pages}}
 
@@ -11,8 +7,4 @@
             {{.Content}}
         </ul>
         {{end}}
-        Test?
-
-        {{ partial "footer.html" .}}
-    </body>
-</html>
+{{end}}
