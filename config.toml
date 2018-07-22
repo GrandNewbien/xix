@@ -10,7 +10,10 @@ theme = "xix"
     txt1 = "Yo, we be XIX"
     
     img2 = "http://placekitten.com/1080/1081"
-    txt2 = "Gimme the light - Sean Paul"
+    txt2 = "'Gimme the light' - Sean Paul"
     
     img3 = "http://placekitten.com/1080/1082"
     txt3 = "Kappa"
+
+[params.footer]
+    copyright = "2018 | XIX"

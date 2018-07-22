@@ -1,0 +1,18 @@
+<html>
+    {{ partial "head.html" .}}
+    <body>
+        {{ partial "nav.html" .}}
+
+        {{.Content}}
+        {{ range .Pages}}
+
+        <ul>
+            <li><a href="{{.URL}}">{{.Title}}</a></li>
+            {{.Content}}
+        </ul>
+        {{end}}
+        Test?
+
+        {{ partial "footer.html" .}}
+    </body>
+</html>
