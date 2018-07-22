@@ -1,0 +1,27 @@
+---
+label: Gallery
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  hidden: false
+  label: date
+  name: date
+  config:
+    required: true
+- type: boolean
+  name: private
+  label: Private
+- type: tag_list
+  name: tags
+  label: tags
+- type: color
+  config:
+    color_format: Hex
+  name: colour
+  label: Colour
