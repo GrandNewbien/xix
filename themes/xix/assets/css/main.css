@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: darkolivegreen;
+  background-color: lemonchiffon ;
   overflow-x: hidden;
   font-family: "Montserrat";
 }
@@ -25,6 +25,11 @@ nav{
 
 footer{
   margin: 3rem;
+}
+
+.slider {
+  height: 100vh;
+  background-color: aquamarine;
 }
 .car{
   opacity: 0;
@@ -66,7 +71,7 @@ footer{
   color: darkgreen;
   align-content: center;
   justify-content: center;
-  background-color: coral;
+  background-color: indianred;
   height: 50vh;
   width: 100vw;
   position: relative;
@@ -121,8 +126,7 @@ min-height: 400px;
 
 .card {
   /*height: 200px;*/
-  background: darkorange;
-  border: 2px solid #000000;
+  background:white;
   border-radius: 4px;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
