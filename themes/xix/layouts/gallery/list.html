@@ -1,10 +1,13 @@
 {{ define "main" }}
-        {{ range .Pages}}
-            {{if not .Params.private}}
-                <ul>
-                    <li><a href="{{.URL}}">{{.Title}}</a></li>
-                    {{.Content}}
-                </ul>
+    <div class="cards">
+            {{ range .Pages}}
+                {{if not .Params.private}}
+                    <div class="card">
+                        <a href="{{.URL}}">{{.Title}}</a>
+                        {{partial "sketchfab.html" .}}
+                        {{.Content}}
+                    </div>        
+                {{end}}
             {{end}}
-        {{end}}
+    </div>        
 {{end}}
