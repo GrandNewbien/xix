@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 languageCode = "en-ca"
 title = "XIX 3D"
 theme = "xix"
+pluralizeListTitles = false
 
 [params]
 
