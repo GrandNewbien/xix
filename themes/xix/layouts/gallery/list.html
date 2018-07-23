@@ -3,8 +3,8 @@
             {{ range .Pages}}
                 {{if not .Params.private}}
                     <div class="card">
-                        <a href="{{.URL}}">{{.Title}}</a>
-                        {{partial "sketchfab.html" .}}
+                        <h2><a href="{{.URL}}">{{.Title}}</a></h2>
+                        {{partial "sketchfabcard.html" .}}
                         {{.Content}}
                     </div>        
                 {{end}}
