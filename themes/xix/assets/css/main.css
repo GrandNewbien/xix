@@ -8,6 +8,8 @@ body {
   font-family: "Montserrat";
 }
 
+
+
 h1{
   font-size:3rem;
 }
@@ -28,8 +30,15 @@ footer{
 }
 
 .slider {
-  height: 100vh;
+  height: 120vh;
   background-color: aquamarine;
+  width: 100vw;
+}
+
+.slider img{
+  height: 120vh;
+  width: 100vw;
+  object-fit: cover;
 }
 .car{
   opacity: 0;
@@ -58,7 +67,7 @@ footer{
 }
   
 .car3 {
-    grid-area: car3;
+    grid-area: car3;/
   }
 
 .info3 {

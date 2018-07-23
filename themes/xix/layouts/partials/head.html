@@ -5,16 +5,19 @@
     <meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
     <meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
 
-    {{ "<!-- Main Stylesheet -->" | safeHTML }}
-    {{ $bundlecss := resources.Get "css/main.css" | minify | fingerprint }}
+    {{ "<!-- Style -->" | safeHTML }}
+    {{ $main := resources.Get "css/main.css" }}
+    {{ $slickcss := resources.Get "css/slick.css" }}
+    {{ $slickthemecss := resources.Get "css/slick-theme.css" }}
+    {{ $bundlecss := slice $main $slickcss $slickthemecss | resources.Concat "css/bundlecss.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}" integrity="{{ $bundlecss.Data.Integrity }}">
     
     {{ "<!-- Javascript -->" | safeHTML }}
     {{ $jquery := resources.Get "js/libs/jquery-3.3.1.min.js" }}
     {{ $scrollmagic := resources.Get "js/libs/ScrollMagic.min.js" }}
     {{ $tweenmax := resources.Get "js/libs/TweenMax.min.js"}}
-    {{ $script := resources.Get "js/script.js"}}
     {{ $scrollmagicdebugger := resources.Get "js/libs/plugins/debug.addIndicators.min.js"}}
-    {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $script $scrollmagicdebugger | resources.Concat "js/bundle.js" | minify | fingerprint}}
+    {{ $slick := resources.Get "js/libs/slick.min.js" }}
+    {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $slick $scrollmagicdebugger | resources.Concat "js/bundle.js" | minify | fingerprint}}
     <script rel="script" src="{{ $bundlejs.RelPermalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
 </head>

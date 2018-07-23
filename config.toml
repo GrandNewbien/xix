@@ -16,5 +16,18 @@ pluralizeListTitles = false
     img3 = "http://placekitten.com/1080/1082"
     txt3 = "Kappa"
 
+[params.slider]
+    img1 = "http://placekitten.com/1200/1080"
+    txt1 = "Yo, we be XIX"
+    
+    img2 = "http://placekitten.com/1080/1081"
+    txt2 = "'Gimme the light' - Sean Paul"
+    
+    img3 = "http://placekitten.com/1080/1082"
+    txt3 = "Kappa"
+
+    img4 = "http://placekitten.com/1080/1084"
+    txt4 = "Bloodclat"
+
 [params.footer]
     copyright = "2018 | XIX"
