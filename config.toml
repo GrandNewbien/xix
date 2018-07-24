@@ -17,17 +17,21 @@ pluralizeListTitles = false
     txt3 = "Kappa"
 
 [params.slider]
-    img1 = "http://placekitten.com/1200/1080"
+    img1 = "http://placekitten.com/1980/1080"
     txt1 = "Yo, we be XIX"
+    icon1 = "fa-angry"
     
-    img2 = "http://placekitten.com/1080/1081"
+    img2 = "http://placekitten.com/1980/1081"
     txt2 = "'Gimme the light' - Sean Paul"
-    
-    img3 = "http://placekitten.com/1080/1082"
-    txt3 = "Kappa"
+    icon2 = "fa-angry"
 
-    img4 = "http://placekitten.com/1080/1084"
+    img3 = "http://placekitten.com/1980/1082"
+    txt3 = "Kappa"
+    icon3 = "fa-angry"
+
+    img4 = "http://placekitten.com/1980/1084"
     txt4 = "Bloodclat"
+    icon4 = "fa-angry"
 
 [params.footer]
     copyright = "2018 | XIX"

@@ -9,7 +9,8 @@
     {{ $main := resources.Get "css/main.css" }}
     {{ $slickcss := resources.Get "css/slick.css" }}
     {{ $slickthemecss := resources.Get "css/slick-theme.css" }}
-    {{ $bundlecss := slice $main $slickcss $slickthemecss | resources.Concat "css/bundlecss.css" | minify | fingerprint }}
+    {{ $fontawesome := resources.Get "css/all.css" }}
+    {{ $bundlecss := slice $fontawesome $slickcss $slickthemecss $main | resources.Concat "css/bundlecss.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}" integrity="{{ $bundlecss.Data.Integrity }}">
     
     {{ "<!-- Javascript -->" | safeHTML }}
