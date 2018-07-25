@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
+html{
+  width: 100vw;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -29,10 +33,15 @@ footer{
   margin: 3rem;
 }
 
-.slider {
-  height: 120vh;
-  background-color: aquamarine;
-  width: 100vw;
+.slider{
+  display: flex;
+}
+
+.slider-container{
+position: relative;
+}
+.slider-nav{
+float: left;
 }
 
 .slider img{
@@ -40,6 +49,13 @@ footer{
   width: 100vw;
   object-fit: cover;
 }
+
+.slider-nav{
+  width: 10vw;
+  display: inline-block;
+  z-index: 2;
+}
+
 .car{
   opacity: 0;
   transition: all 0.3s ease;
@@ -67,7 +83,7 @@ footer{
 }
   
 .car3 {
-    grid-area: car3;/
+    grid-area: car3;
   }
 
 .info3 {

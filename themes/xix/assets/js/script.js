@@ -49,11 +49,17 @@ $(document).ready(function () {
 
 
 // Slick*********************************************************
-  $('.slider').slick({
+  $('.slider-single').slick({
     fade: true,
     cssEase: 'linear'
   });
-
+  $('.slider-nav').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.slider-single',
+    centerMode: false,
+    focusOnSelect: true
+  });
 
 // **** MOBILE VIEW ****
       if ($( window ).width() <= 500) {
