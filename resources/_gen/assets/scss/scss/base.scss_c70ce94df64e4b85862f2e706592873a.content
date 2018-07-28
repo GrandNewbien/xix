@@ -38,7 +38,6 @@ footer {
 
 .info1, .info2, .info3 {
   display: grid;
-  color: darkgreen;
   align-content: center;
   justify-content: center;
   background-color: indianred;
