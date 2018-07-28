@@ -6,11 +6,13 @@
     <meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
 
     {{ "<!-- Style -->" | safeHTML }}
-    {{ $main := resources.Get "css/main.css" }}
+    <!-- {{ $main := resources.Get "css/main.css" }} -->
+    {{ $base := resources.Get "scss/base.scss" | resources.ToCSS | fingerprint}}
+    <link rel="stylesheet" href="{{ $base.RelPermalink }}" integrity="{{ $base.Data.Integrity }}">
     {{ $slickcss := resources.Get "css/slick.css" }}
     {{ $slickthemecss := resources.Get "css/slick-theme.css" }}
     {{ $fontawesome := resources.Get "css/all.css" }}
-    {{ $bundlecss := slice $fontawesome $slickcss $slickthemecss $main | resources.Concat "css/bundlecss.css" | minify | fingerprint }}
+    {{ $bundlecss := slice $fontawesome $slickcss $slickthemecss | resources.Concat "css/bundlecss.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $bundlecss.RelPermalink }}" integrity="{{ $bundlecss.Data.Integrity }}">
     
     {{ "<!-- Javascript -->" | safeHTML }}

@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   var responsiveDuration = "100%";
   if ($( window ).width() <= 500) {
-    responsiveDuration = "100%"
+    responsiveDuration = $(".car1").height()+$(".info1").height()
   };
 
   var controller = new ScrollMagic.Controller();

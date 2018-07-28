@@ -1,0 +1,24 @@
+.slider {
+    display: flex;
+}
+
+.slider-container {
+    position: relative;
+    z-index: 2;
+}
+
+.slider-nav {
+    float: left;
+}
+
+.slider img {
+    height: 120vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.slider-nav {
+    width: 10vw;
+    display: inline-block;
+    z-index: 2;
+}

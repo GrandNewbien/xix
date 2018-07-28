@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
-html{
-  width: 100vw;
-}
 
 body {
   margin: 0px;
@@ -11,8 +8,6 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat";
 }
-
-
 
 h1{
   font-size:3rem;
@@ -39,6 +34,7 @@ footer{
 
 .slider-container{
 position: relative;
+z-index: 2;
 }
 .slider-nav{
 float: left;
@@ -107,6 +103,7 @@ float: left;
   width: 100vw;
   position: relative;
   object-fit: cover;
+  z-index: 1;
 }
 
 img.hero {
