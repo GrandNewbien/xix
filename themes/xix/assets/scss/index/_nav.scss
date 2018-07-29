@@ -1,14 +1,30 @@
 .index-nav {
     display: flex;
-    padding: 0.5rem;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    background-color: $background;
+    width: 100%;
 }
-
+  
 .navbar-link {
-    margin-left:auto;
+    margin: auto;
+}  
+
+.navbar-toggle{
+    display: none;
 }
 
 @media only screen and (max-width: 500px){
     .navbar-link, .index-nav {
         flex-direction: column;       
     }
+    .navbar-link {
+        display: none;
+    }
+    .navbar-toggle {
+        display: flex;
+        cursor: pointer;
+
+      }
 }

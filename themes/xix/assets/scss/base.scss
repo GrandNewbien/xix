@@ -1,5 +1,6 @@
 // Variables
-$background: lemonchiffon; 
+$background: lemonchiffon;
+$hero-background: indianred; 
 $min-width: 500px;
 
 // Imports
@@ -10,14 +11,3 @@ body {
     overflow-x: hidden;
     font-family: "Montserrat"
 }
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    color: #000;
-    margin: 2rem 0 .5rem;
-    font-size: 1.25rem;
-    font-weight: 400;
-  }
