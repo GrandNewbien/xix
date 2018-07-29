@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.org/gallery/merc/</loc>
+    <lastmod>2018-07-23T04:13:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/gallery/audi/</loc>
+    <lastmod>2018-07-23T04:01:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/gallery/bemmer/</loc>
+    <lastmod>2018-07-23T04:00:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/gallery/rarri/</loc>
+    <lastmod>2018-07-22T21:56:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/gallery/lambo/</loc>
+    <lastmod>2018-07-22T21:53:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/gallery/</loc>
+    <lastmod>2018-07-23T04:13:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/</loc>
+    <lastmod>2018-07-23T04:13:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

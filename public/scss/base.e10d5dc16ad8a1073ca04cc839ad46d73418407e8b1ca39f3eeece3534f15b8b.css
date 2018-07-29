@@ -38,7 +38,6 @@ footer {
 
 .info1, .info2, .info3 {
   display: grid;
-  color: darkgreen;
   align-content: center;
   justify-content: center;
   background-color: indianred;
@@ -97,8 +96,16 @@ img.hero {
   display: inline-block;
   z-index: 2; }
 
-nav {
-  margin: 1rem; }
+.index-nav {
+  display: flex;
+  padding: 0.5rem; }
+
+.navbar-link {
+  margin-left: auto; }
+
+@media only screen and (max-width: 500px) {
+  .navbar-link, .index-nav {
+    flex-direction: column; } }
 
 .cards {
   display: grid;
@@ -135,7 +142,7 @@ nav {
   min-height: 400px; }
 
 body {
-  background-color: green;
+  background-color: lemonchiffon;
   overflow-x: hidden;
   font-family: "Montserrat"; }
 
