@@ -7,7 +7,7 @@
     width: 100%;
 }
   
-.navbar-link {
+.navbar-brand, .navbar-link {
     margin: auto;
 }  
 
@@ -23,8 +23,12 @@
         display: none;
     }
     .navbar-toggle {
-        display: flex;
+        display: initial;
         cursor: pointer;
-
+        margin: 1.5rem;
+        position: absolute;
       }
+    .navbar-link.active {
+        display: inherit;
+    }  
 }

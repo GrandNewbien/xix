@@ -61,6 +61,12 @@ $(document).ready(function () {
     focusOnSelect: true
   });
 
+// Nav Button **************************************************
+
+$( ".navbar-toggle" ).click(function() {
+  $( ".navbar-link" ).toggleClass( "active" );
+});
+
 // **** MOBILE VIEW ****
       if ($( window ).width() <= 500) {
 
