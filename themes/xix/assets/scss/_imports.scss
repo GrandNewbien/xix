@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 @import 'reset.scss';
 @import 'footer.scss';
+@import 'index/video.scss';
 @import 'index/hero.scss';
 @import 'index/slider.scss';
 @import 'index/nav.scss';
 @import 'gallery/list/gallerylist.scss';
 @import 'gallery/single/gallerysingle.scss';
-@import '404/404.scss'
+@import '404/404.scss';
