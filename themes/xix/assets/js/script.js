@@ -1,5 +1,16 @@
 $(document).ready(function () {
 
+  // Fullpage***************************************************
+	$('#fullpage').fullpage({
+		licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+	//methods
+
+
+
 // ScrollMagic***************************************************
 
   var responsiveDuration = "100%";
