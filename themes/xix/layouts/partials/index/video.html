@@ -1,8 +1,9 @@
 <div class="section" id="section0">
 		<video id="myVideo" loop muted data-autoplay>
-                <source src="imgs/backgroundvideo.webm" type="video/webm">
+                <source src="{{.Site.Params.index.hero.video}}" type="video/webm">
             </video>
             <div class="layer">
-                <h1>XIX</h1>
+                <h1>{{.Site.Params.index.hero.title}}</h1>
+                <p>{{.Site.Params.index.hero.txt}}</p>
             </div>
 </div>

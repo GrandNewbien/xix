@@ -1,0 +1,1 @@
+$(document).ready(function(){$('#fullpage').fullpage({licenseKey:"OPEN-SOURCE-GPLV3-LICENSE",autoScrolling:true,scrollHorizontally:true});$(".navbar-toggle").click(function(){$(".navbar-link").toggleClass("active");});if($(window).width()<=500){}});

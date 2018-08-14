@@ -1,8 +1,13 @@
 {{ define "main" }}
+    {{ $script := resources.Get "js/list/script.js" | minify | fingerprint}}
+    <script rel="script" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     <div class="cards">
             {{ range .Pages}}
                 {{if not .Params.private}}
                     <div class="card">
+                                    <a data-fancybox data-type="iframe" data-src="{{.URL}}" href="javascript:;">
+                                        Sample PDF file 
+                                    </a>
                         <h2><a href="{{.URL}}">{{.Title}}</a></h2>
                         {{partial "sketchfabcard.html" .}}
                         {{.Content}}

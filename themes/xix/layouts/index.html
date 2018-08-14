@@ -1,5 +1,5 @@
 {{define "main"}}
-    {{ $script := resources.Get "js/script.js" | minify | fingerprint}}
+    {{ $script := resources.Get "js/index/script.js" | minify | fingerprint}}
     <script rel="script" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
     {{ partial "fullpage.html" . }}
 {{end}}

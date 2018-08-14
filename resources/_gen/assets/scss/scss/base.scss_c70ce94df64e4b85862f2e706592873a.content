@@ -9,8 +9,15 @@ ol {
 footer {
   margin: 3rem; }
 
-h1 {
-  color: #fff; }
+.layer h1 {
+  color: white;
+  font-size: 10rem;
+  text-shadow: 2px 2px rgba(27, 28, 26, 0.5); }
+
+.layer p {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px rgba(27, 28, 26, 0.5); }
 
 /* Centered texts in each section
 * --------------------------------------- */
@@ -42,7 +49,7 @@ h1 {
   z-index: 4;
   width: 100%;
   left: 0;
-  top: 43%;
+  top: 30%;
   /*
     * Preventing flicker on some browsers
     * See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -155,10 +162,10 @@ img.hero {
 
 .index-nav {
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 5;
-  background-color: lemonchiffon;
+  background: rgba(0, 0, 0, 0.8);
   width: 100%; }
 
 .navbar-brand, .navbar-link {
@@ -184,7 +191,8 @@ img.hero {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: minmax(200px, auto);
-  grid-gap: 1rem; }
+  grid-gap: 1rem;
+  margin-top: 5rem; }
 
 .card {
   background: white;
@@ -209,7 +217,7 @@ img.hero {
 
 @media (min-width: 500px) {
   .cards {
-    margin: 1rem; } }
+    margin-top: 5rem; } }
 
 .sketchfab-iframe {
   min-height: 400px; }

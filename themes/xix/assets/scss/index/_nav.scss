@@ -1,9 +1,9 @@
 .index-nav {
     display: flex;
-    position: sticky;
+    position: fixed;
     top:0;
     z-index: 5;
-    background-color: $background;
+    background: rgba($nav-background,0.8);
     width: 100%;
 }
   
