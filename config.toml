@@ -6,39 +6,12 @@ pluralizeListTitles = false
 
 [params]
 
+# Index/Home page stuff:
+
 [params.index.hero]
     video = "images/backgroundvideo2.webm"
     title = "XIX"
     txt = "VR tingz"
-
-
-
-# [params.hero]
-#     img1 = "http://placekitten.com/1000/1000"
-#     txt1 = "Yo, we be XIX"
-    
-#     img2 = "http://placekitten.com/1080/1081"
-#     txt2 = "'Gimme the light' - Sean Paul"
-    
-#     img3 = "http://placekitten.com/1080/1082"
-#     txt3 = "Kappa"
-
-# [params.slider]
-#     img1 = "http://placekitten.com/1980/1080"
-#     txt1 = "Yo, we be XIX"
-#     icon1 = "fas fa-adjust"
-    
-#     img2 = "http://placekitten.com/1980/1081"
-#     txt2 = "'Gimme the light' - Sean Paul"
-#     icon2 = "fas fa-adjust"
-
-#     img3 = "http://placekitten.com/1980/1082"
-#     txt3 = "Kappa"
-#     icon3 = "fas fa-adjust"
-
-#     img4 = "http://placekitten.com/1980/1084"
-#     txt4 = "Bloodclat"
-#     icon4 = "fas fa-adjust"
 
 [params.footer]
     copyright = "2018 | XIX"

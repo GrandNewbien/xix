@@ -5,6 +5,15 @@
             {{ range .Pages}}
                 {{if not .Params.private}}
                     <div class="card">
+                            <div style="display: none;" id="{{.Title}}">
+                                    <h2>Hello</h2>
+                                    <p>You are awesome.</p>
+                                    {{.Content}}
+                                    {{partial "sketchfabcard.html" .}}
+                                </div>
+                                <a data-fancybox data-src="#{{.Title}}" href="javascript:;">
+                                        Trigger the fancybox
+                                    </a>
                                     <a data-fancybox data-type="iframe" data-src="{{.URL}}" href="javascript:;">
                                         Sample PDF file 
                                     </a>
