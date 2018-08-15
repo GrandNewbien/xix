@@ -6,10 +6,19 @@
     <description>Recent content on XIX3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Mon, 23 Jul 2018 04:13:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 17:28:04 +0000</lastBuildDate>
     
 	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Huracan</title>
+      <link>https://example.org/gallery/huracan/</link>
+      <pubDate>Wed, 15 Aug 2018 17:28:04 +0000</pubDate>
+      
+      <guid>https://example.org/gallery/huracan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Merc</title>
