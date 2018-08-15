@@ -220,7 +220,7 @@ img.hero {
     margin-top: 5rem; } }
 
 .sketchfab-iframe {
-  min-height: 400px; }
+  min-height: 900px; }
 
 .lost {
   margin: 4em; }
