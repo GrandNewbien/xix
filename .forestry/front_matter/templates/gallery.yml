@@ -33,7 +33,6 @@ fields:
   label: Colour
 pages:
 - content/gallery/veyron-v2.md
-- content/gallery/veyron-v1.md
 - content/gallery/huracan.md
 - content/gallery/merc.md
 - content/gallery/audi.md
