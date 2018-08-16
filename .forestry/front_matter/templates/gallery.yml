@@ -32,9 +32,10 @@ fields:
   name: colour
   label: Colour
 pages:
-- content/gallery/rarri.md
-- content/gallery/lambo.md
-- content/gallery/bemmer.md
+- content/gallery/veyron-v1.md
+- content/gallery/huracan.md
 - content/gallery/merc.md
 - content/gallery/audi.md
-- content/gallery/huracan.md
+- content/gallery/bemmer.md
+- content/gallery/rarri.md
+- content/gallery/lambo.md
