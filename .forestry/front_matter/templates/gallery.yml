@@ -32,6 +32,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/huracan-3-kilos.md
 - content/gallery/veyron-v3.md
 - content/gallery/veyron-v2.md
 - content/gallery/huracan.md
