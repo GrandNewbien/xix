@@ -32,6 +32,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/huracan-3-kilos-v2.md
 - content/gallery/huracan-3-kilos-satin.md
 - content/gallery/mansoary-lamborghini-huracan-red-bull-livery.md
 - content/gallery/huracan-3-kilos.md
