@@ -5,21 +5,19 @@
             {{ range .Pages}}
                 {{if not .Params.private}}
                     <div class="card">
-                            <div style="display: none;" id="{{.Title}}">
-                                    <h2>Hello</h2>
-                                    <p>You are awesome.</p>
-                                    {{.Content}}
-                                    {{partial "sketchfabcard.html" .}}
-                                </div>
-                                <a data-fancybox data-src="#{{.Title}}" href="javascript:;">
-                                        Trigger the fancybox
-                                    </a>
-                                    <!-- <a data-fancybox data-type="iframe" data-src="{{.URL}}" href="javascript:;">
-                                        Iframe opening
-                                    </a> -->
-                        <h2><a href="{{.URL}}">{{.Title}}</a></h2>
                         {{partial "sketchfabcard.html" .}}
-                        {{.Content}}
+                        <div class="galleryListInfo">
+                            <h4><a href="{{.URL}}">{{.Title}}</a></h4>
+                            {{.Content}}
+                            <a data-fancybox data-src="#{{.Title}}" href="javascript:;">
+                                Trigger the fancybox
+                            </a>
+                            <div style="display: none;" id="{{.Title}}">
+                                <h2>{{.Title}}</h2>
+                                {{.Content}}
+                                {{partial "sketchfabcard.html" .}}
+                            </div>
+                        </div>
                     </div>        
                 {{end}}
             {{end}}
