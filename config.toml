@@ -5,6 +5,7 @@ theme = "xix"
 pluralizeListTitles = false
 
 [params]
+# Site Wide:
 
 # Index/Home page stuff:
 

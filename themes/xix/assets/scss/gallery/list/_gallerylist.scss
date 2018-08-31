@@ -4,14 +4,15 @@
     grid-auto-rows: minmax(200px, auto);
     grid-auto-flow: dense;
     grid-gap: 1rem;
-    margin-top: 5rem;
+    margin: 5rem 0 0 0;
   }
   
 .card {
     background:navy;
-    border-radius: 4px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    // -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    // box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -19,7 +20,7 @@
     flex-direction: column;
     position: relative;
     color: #5d5e5e;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 .card h2, p{
@@ -33,6 +34,9 @@
 
   @media (min-width: $min-width) {
     .cards {
-    margin-top: 5rem;
+    margin: 5rem 1rem 1rem 1rem;
+    }
+    .card{
+    border-radius: 0;
     }      
   }
