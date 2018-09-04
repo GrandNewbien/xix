@@ -32,6 +32,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/test.md
 - content/gallery/gold-ducati-kit.md
 - content/gallery/huracan-3-kilos-v2.md
 - content/gallery/huracan-3-kilos-satin.md
