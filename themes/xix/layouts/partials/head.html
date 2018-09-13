@@ -25,7 +25,10 @@
     {{ $scrollmagicdebugger := resources.Get "js/libs/plugins/debug.addIndicators.min.js"}}
     {{ $fancyboxjs := resources.Get "js/libs/jquery.fancybox.js" }}
     {{ $fullpagejs := resources.Get "/js/libs/fullpage.extensions.min.js" }}
-    {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $scrollmagicdebugger $fullpagejs $fancyboxjs | resources.Concat "js/bundle.js" | minify | fingerprint}}
+    {{ $script := resources.Get "js/script.js"}}
+    {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $scrollmagicdebugger $fullpagejs $fancyboxjs $script | resources.Concat "js/bundle.js" | minify | fingerprint}}
+
+
     <script rel="script" src="{{ $bundlejs.RelPermalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
 
 </head>

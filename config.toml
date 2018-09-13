@@ -10,9 +10,10 @@ pluralizeListTitles = false
 # Index/Home page stuff:
 
 [params.index.hero]
-    video = "images/backgroundvideo2.webm"
+    video = "images/backgroundvideo3.webm"
     title = "XIX"
-    txt = "VR tingz"
+    txt = "XIX3D is a real time 3D car configurator"
+    img = "images/xixlogowhite.png"
 
 [params.footer]
     copyright = "2018 | XIX"
