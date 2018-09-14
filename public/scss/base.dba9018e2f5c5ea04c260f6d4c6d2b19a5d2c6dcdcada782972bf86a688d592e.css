@@ -133,7 +133,7 @@ img.hero {
   display: grid;
   grid-template-areas: "car1" "info1" "car2" "info2" "car3" "info3"; }
 
-@media (min-width: 580px) {
+@media (min-width: 500px) {
   .hero {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100% 100%;
@@ -193,8 +193,7 @@ img.hero {
 img.navbarlogo {
   width: 10em;
   position: relative;
-  top: 6em;
-  left: 1.2em; }
+  top: 6em; }
 
 div.navbar-link h3 {
   font-size: 1.4em; }
@@ -202,9 +201,7 @@ div.navbar-link h3 {
 .navbar-toggle {
   display: none; }
 
-@media only screen and (max-width: 580px) {
-  .index-nav {
-    background: transparent; }
+@media only screen and (max-width: 500px) {
   .navbar-link, .index-nav {
     flex-direction: column; }
   .navbar-link {
@@ -246,7 +243,7 @@ div.navbar-link h3 {
   min-height: 200px;
   border: .25px solid #000000; }
 
-@media (min-width: 580px) {
+@media (min-width: 500px) {
   .cards {
     margin: 5rem 1rem 1rem 1rem; }
   .card {
