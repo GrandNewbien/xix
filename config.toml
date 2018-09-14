@@ -12,7 +12,7 @@ pluralizeListTitles = false
 [params.index.hero]
     video = "images/backgroundvideo3.webm"
     title = "XIX"
-    txt = "XIX3D is a real time 3D car configurator"
+    txt = "Real time 3D configurator"
     img = "images/xixlogowhite.png"
 
 [params.footer]
