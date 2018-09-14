@@ -10,7 +10,21 @@
   
 .navbar-brand, .navbar-link {
     margin: auto;
-}  
+    transition: width .3s;
+    text-decoration: none;
+}
+
+.navbar-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:blue;
+    transition: width .3s; 
+}
+.navbar-link:hover::after {
+width: 100%;
+}    
 
 .logonav{
     width: 13em;
