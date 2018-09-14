@@ -11,7 +11,15 @@
 .navbar-brand, .navbar-link {
     margin: auto;
     transition: width .3s;
+}
+
+a{
+    color: darken($accent,30%);
+}
+
+a:hover {
     text-decoration: none;
+    color: $accent;
 }
 
 .navbar-link::after{
@@ -19,7 +27,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background:blue;
+    background:$accent;
     transition: width .3s; 
 }
 .navbar-link:hover::after {
@@ -33,9 +41,9 @@ width: 100%;
     display: block;
     position: relative;
     top: -5em;
-    background-color: black;
+    background-color: $nav-background;
     border-style: solid;
-    border-color: red;
+    border-color: $accent;
     overflow: hidden;
 }
 img.navbarlogo {
@@ -58,6 +66,10 @@ div.navbar-link h3 {
     .index-nav{
         background: transparent;
     }
+    .index-nav.active{
+        background-color: $nav-background;
+        height: 100%;
+    }
     .navbar-link, .index-nav {
         flex-direction: column;       
     }
@@ -70,10 +82,25 @@ div.navbar-link h3 {
         margin: 1.5rem;
         position: absolute;
       }
+      .navbar-toggle.active {
+        display: initial;
+        cursor: pointer;
+        margin: 1.5rem;
+        position: absolute;
+        color: $accent;
+      }
     .navbar-link.active {
         display: inherit;
     }
+
+    .navbar-link.logonav {
+        display: none;
+        margin: auto;
+    }
     img.navbarlogo {
         display: none;
+    }
+    div.navbar-link h3 {
+        font-size: 1.2em;
     }  
 }

@@ -179,19 +179,15 @@ img.hero {
   margin: auto;
   transition: width .3s; }
 
-a {
-  color: #b3b2b2; }
-
 a:hover {
-  text-decoration: none;
-  color: white; }
+  text-decoration: none; }
 
 .navbar-link::after {
   content: '';
   display: block;
   width: 0;
   height: 2px;
-  background: white;
+  background: blue;
   transition: width .3s; }
 
 .navbar-link:hover::after {

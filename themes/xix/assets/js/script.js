@@ -63,6 +63,8 @@ $(document).ready(function () {
 
 $( ".navbar-toggle" ).click(function() {
   $( ".navbar-link" ).toggleClass( "active" );
+  $( ".navbar-toggle" ).toggleClass( "active" );
+  $( ".navbar-link" ).parent().toggleClass( "active" );
 });
 
 // **** MOBILE VIEW ****
