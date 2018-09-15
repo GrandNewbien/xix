@@ -58,7 +58,7 @@ $(document).ready(function () {
 //     .addTo(controller)
 //     .addIndicators();
 
-
+$('.fancybox').fancybox();
 // Nav Button **************************************************
 
 $( ".navbar-toggle" ).click(function() {

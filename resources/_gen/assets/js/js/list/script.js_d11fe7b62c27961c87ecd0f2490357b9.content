@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log("This is the script page");});
+$(document).ready(function(){$('.fancybox').fancybox();});
