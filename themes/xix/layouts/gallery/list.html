@@ -7,9 +7,8 @@
                         {{partial "sketchfabcard.html" .}}
                         <div class="galleryListInfo">
                             <h4><a href="{{.URL}}">{{.Title}}</a></h4>
-                            {{.Content}}
                             <a data-fancybox data-src="#{{.Title | urlize}}" href="javascript:;">
-                                Trigger the fancybox
+                                <i class="fas fa-plus-square"></i>
                             </a>
                             <div style="display: none;" id="{{.Title | urlize}}">
                                 <h2>{{.Title}}</h2>

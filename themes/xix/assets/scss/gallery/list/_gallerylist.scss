@@ -20,7 +20,7 @@
     flex-direction: column;
     position: relative;
     color: #5d5e5e;
-    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 .card h2, p{
@@ -29,12 +29,19 @@
 
 .sketchfab-iframe-card{
     min-height: 200px;
-    border: .25px solid #000000;
+    //border: .25px solid #000000;
+}
+
+div.galleryListInfo > a {
+    color: $accent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
   @media (min-width: $min-width) {
     .cards {
-    margin: 5rem 1rem 1rem 1rem;
+    margin: 10rem 1rem 1rem 1rem;
     }
     .card{
     border-radius: 0;

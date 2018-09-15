@@ -57,6 +57,12 @@ div.navbar-link h3 {
     font-size: 1.4em;
 }
 
+body > nav > div.navbar-toggle > i {
+    color:$accent ;
+    -webkit-filter: drop-shadow(5px 5px 5px $nav-background);
+    filter: drop-shadow(2px 2px 2px $nav-background);
+}
+
 .navbar-toggle{
     display: none;
 }
@@ -69,6 +75,7 @@ div.navbar-link h3 {
     .index-nav.active{
         background-color: $nav-background;
         height: 100%;
+        transition: height .3s;
     }
     .navbar-link, .index-nav {
         flex-direction: column;       
