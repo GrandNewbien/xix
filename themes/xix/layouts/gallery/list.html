@@ -1,6 +1,5 @@
 {{ define "main" }}
-    {{ $script := resources.Get "js/list/script.js" | minify | fingerprint}}
-    <script rel="script" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+
     <div class="cards">
             {{ range .Pages}}
                 {{if not .Params.private}}
