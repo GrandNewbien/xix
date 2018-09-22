@@ -383,8 +383,8 @@ ul li:before {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr; }
   .pricing-table > div:nth-child(3) {
-    -ms-grid-row: 1;
-    grid-row-start: 1; }
+    -ms-grid-row: 3;
+    grid-row-start: 3; }
   .pricing-table > div:nth-child(2) {
     -ms-grid-row: 2;
     grid-row-start: 2; }

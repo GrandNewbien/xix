@@ -22,21 +22,46 @@ pluralizeListTitles = false
     pricingTitle1 = "Free Membership"
     price1 = "Free Lifetime"
     description1 = "OMG WHO THIMKS ITS LOL"
-    checklist = ["We might even pay you",
-     "Rub me"]
+    checklist = ["Includes the following features:",
+"XIX 3D branding within software",
+"Tech Support",
+"10-point touch configurator ",
+"VR compatible",
+"Standard inventory of car models",
+"On-Demand live renders (limit 100)",
+"Special indoor enviornments"
+]
 
 [params.pricing2]
     pricingTitle2 = "BJ Plans"
     price2 = "1 BJ/day"
     description2 = "JayZ has some big lips"
-    checklist = ["Free surprise fellatio",
-     "swag"]
+    checklist = ["Customizable enviornments",
+    "Personalized branding within software",
+    "Tech Support",
+    "10-point touch configurator ",
+    "VR compatible",
+    "Advanced customization options",
+    "Advanced inventory of car models",
+    "On-Demand live renders (limit 300)",
+    "Special indoor + outdoor envionrments"
+]
 
 [params.pricing3]
-    pricingTitle3 = "Give us money"
+    pricingTitle3 = "Choke me daddy"
     price3 = "$1000/month"
     description3 = "No really JayZ BJ's must be blessed"
-    checklist = ["Choke me daddy"]
+    checklist = ["Tech Support",
+"10-point touch configurator ",
+"VR compatible",
+"Ultimate customization options",
+"Full inventory of car model",
+"sOn-Demand live renders (no limit)",
+"All envionrments",
+"Ultimate customizatibilty and assets",
+"Customizable enviornments",
+"Personalized branding within software"
+]
 
 
 # Footer Text
