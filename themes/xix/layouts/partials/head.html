@@ -28,7 +28,9 @@
     {{ $script := resources.Get "js/script.js"}}
     {{ $bundlejs := slice $jquery $scrollmagic $tweenmax $scrollmagicdebugger $fullpagejs $fancyboxjs $script | resources.Concat "js/bundle.js" | minify | fingerprint}}
 
-
+    <!--Paralax.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    
     <script rel="script" src="{{ $bundlejs.RelPermalink }}" integrity="{{ $bundlejs.Data.Integrity }}"></script>
 
 </head>

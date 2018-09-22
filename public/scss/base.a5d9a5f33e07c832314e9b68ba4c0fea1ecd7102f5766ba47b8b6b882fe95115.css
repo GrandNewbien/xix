@@ -270,7 +270,7 @@ body > nav > div.navbar-toggle > i {
   margin: 5rem 0 0 0; }
 
 .card {
-  background: navy;
+  background-image: linear-gradient(-90deg, #293744, #394453);
   border-radius: 10px;
   overflow: hidden;
   display: flex;

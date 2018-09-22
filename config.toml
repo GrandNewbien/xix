@@ -4,7 +4,7 @@ title = "XIX3D"
 theme = "xix"
 pluralizeListTitles = false
 
-[params]
+
 # Site Wide:
 
 # Index/Home page stuff:
@@ -14,6 +14,8 @@ pluralizeListTitles = false
     title = "XIX"
     txt = "Real time 3D configurator"
     img = "images/xixlogowhite.png"
+
+[params.index.design]
 
 [params.footer]
     copyright = "2018 | XIX"
