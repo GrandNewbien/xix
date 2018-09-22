@@ -9,8 +9,6 @@ $(document).ready(function () {
 
 	//methods
 
-
-
 // // ScrollMagic***************************************************
 
 //   var responsiveDuration = "100%";
@@ -66,10 +64,11 @@ $( ".navbar-toggle" ).click(function() {
   $( ".navbar-toggle" ).toggleClass( "active" );
   $( ".navbar-link" ).parent().toggleClass( "active" );
 });
-console.log("scene bound");
-var scene = $('#scene').get(0);
+
+var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
 
+console.log("scene bound")
 // **** MOBILE VIEW ****
       if ($( window ).width() <= 500) {
 
