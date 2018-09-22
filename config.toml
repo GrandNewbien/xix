@@ -17,5 +17,28 @@ pluralizeListTitles = false
 
 [params.index.design]
 
+# Pricing Page Stuff
+[params.pricing1]
+    pricingTitle1 = "Free Membership"
+    price1 = "Free Lifetime"
+    description1 = "OMG WHO THIMKS ITS LOL"
+    checklist = ["We might even pay you",
+     "Rub me"]
+
+[params.pricing2]
+    pricingTitle2 = "BJ Plans"
+    price2 = "1 BJ/day"
+    description2 = "JayZ has some big lips"
+    checklist = ["Free surprise fellatio",
+     "swag"]
+
+[params.pricing3]
+    pricingTitle3 = "Give us money"
+    price3 = "$1000/month"
+    description3 = "No really JayZ BJ's must be blessed"
+    checklist = ["Choke me daddy"]
+
+
+# Footer Text
 [params.footer]
     copyright = "2018 | XIX"
