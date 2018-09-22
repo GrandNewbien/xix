@@ -66,6 +66,9 @@ $( ".navbar-toggle" ).click(function() {
   $( ".navbar-toggle" ).toggleClass( "active" );
   $( ".navbar-link" ).parent().toggleClass( "active" );
 });
+console.log("scene bound");
+var scene = $('#scene').get(0);
+var parallaxInstance = new Parallax(scene);
 
 // **** MOBILE VIEW ****
       if ($( window ).width() <= 500) {

@@ -19,9 +19,9 @@ pluralizeListTitles = false
 
 # Pricing Page Stuff
 [params.pricing1]
-    pricingTitle1 = "Free Membership"
-    price1 = "Free Lifetime"
-    description1 = "OMG WHO THIMKS ITS LOL"
+    pricingTitle1 = "TBD"
+    price1 = "TBD"
+    description1 = "TBD"
     checklist = ["Includes the following features:",
 "XIX 3D branding within software",
 "Tech Support",
@@ -33,9 +33,9 @@ pluralizeListTitles = false
 ]
 
 [params.pricing2]
-    pricingTitle2 = "BJ Plans"
-    price2 = "1 BJ/day"
-    description2 = "JayZ has some big lips"
+    pricingTitle2 = "TBD"
+    price2 = "TBD"
+    description2 = "TBD"
     checklist = ["Customizable enviornments",
     "Personalized branding within software",
     "Tech Support",
@@ -48,9 +48,9 @@ pluralizeListTitles = false
 ]
 
 [params.pricing3]
-    pricingTitle3 = "Choke me daddy"
+    pricingTitle3 = "TBD"
     price3 = "$1000/month"
-    description3 = "No really JayZ BJ's must be blessed"
+    description3 = "TBD"
     checklist = ["Tech Support",
 "10-point touch configurator ",
 "VR compatible",
