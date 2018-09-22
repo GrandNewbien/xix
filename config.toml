@@ -49,7 +49,7 @@ pluralizeListTitles = false
 
 [params.pricing3]
     pricingTitle3 = "TBD"
-    price3 = "$1000/month"
+    price3 = "TBD"
     description3 = "TBD"
     checklist = ["Tech Support",
 "10-point touch configurator ",
