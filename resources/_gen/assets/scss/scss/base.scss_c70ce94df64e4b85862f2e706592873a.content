@@ -213,7 +213,7 @@ img.navbarlogo {
   width: 10em;
   position: relative;
   top: 6em;
-  left: 1.2em; }
+  left: 1.3em; }
 
 div.navbar-link h3 {
   font-size: 1.4em; }
