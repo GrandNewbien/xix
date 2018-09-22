@@ -10,7 +10,7 @@ pluralizeListTitles = false
 # Index/Home page stuff:
 
 [params.index.hero]
-    video = "images/backgroundvideo3.webm"
+    video = "images/XIX3DIGTeaser.mp4"
     title = "XIX"
     txt = "Real time 3D configurator"
     img = "images/xixlogowhite.png"
