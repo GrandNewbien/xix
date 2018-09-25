@@ -260,9 +260,15 @@ body > nav > div.navbar-toggle > i {
     font-size: 1.2em; } }
 
 #section2 {
-  width: 100%;
-  height: 100%;
   background-image: linear-gradient(-90deg, #293744, #394453); }
+  #section2 .design-car {
+    height: 50em; }
+  #section2 .design-aamir {
+    height: 50em; }
+
+.background-pricing {
+  width: 100%;
+  height: 100%; }
 
 .wrapper {
   width: 95%;

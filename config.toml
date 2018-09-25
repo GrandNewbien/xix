@@ -17,6 +17,16 @@ pluralizeListTitles = false
 
 [params.index.design]
 
+[params.index.vr]
+
+[params.index.online]
+
+[params.index.gallery]
+
+[params.index.pricing]
+
+[params.index.contact]
+
 # Pricing Page Stuff
 [params.pricing1]
     pricingTitle1 = "TBD"
