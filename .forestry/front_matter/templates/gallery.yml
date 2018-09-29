@@ -32,6 +32,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/venom-mclaren-650s-v2.md
 - content/gallery/Venom-McLaren-650s.md
 - content/gallery/veyron-v2.md
 - content/gallery/gold-ducati-kit.md
