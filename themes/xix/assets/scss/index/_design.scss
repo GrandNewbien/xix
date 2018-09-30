@@ -1,10 +1,27 @@
 #section2 {
     background-image: linear-gradient(-90deg, $background, $background-grad);
+    display: grid;
 
+
+#scene{
+    background-color: blue;
+    height: 100vh;
+    display: grid;
+}
 .design-car{
+    height: 40em;
+}
+.design-aamir-touch{
     height: 50em;
 }
-.design-aamir{
-    height: 50em;
 }
+
+.container  {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+    border: 10px solid #0B292D;
+    background: #000;
 }

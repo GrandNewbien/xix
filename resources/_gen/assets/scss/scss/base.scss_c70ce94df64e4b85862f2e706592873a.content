@@ -260,11 +260,25 @@ body > nav > div.navbar-toggle > i {
     font-size: 1.2em; } }
 
 #section2 {
-  background-image: linear-gradient(-90deg, #293744, #394453); }
+  background-image: linear-gradient(-90deg, #293744, #394453);
+  display: grid; }
+  #section2 #scene {
+    background-color: blue;
+    height: 100vh;
+    display: grid; }
   #section2 .design-car {
+    height: 40em; }
+  #section2 .design-aamir-touch {
     height: 50em; }
-  #section2 .design-aamir {
-    height: 50em; }
+
+.container {
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+  border: 10px solid #0B292D;
+  background: #000; }
 
 .background-pricing {
   width: 100%;
