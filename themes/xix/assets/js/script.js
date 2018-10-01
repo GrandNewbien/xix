@@ -66,7 +66,9 @@ $( ".navbar-toggle" ).click(function() {
 });
 
 var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
+var parallaxInstance = new Parallax(scene, {
+  selector: ".parallax-select"
+});
 
 console.log("scene bound")
 // **** MOBILE VIEW ****
