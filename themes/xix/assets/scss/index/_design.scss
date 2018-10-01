@@ -5,28 +5,34 @@
 #scene{
     height: 100vh;
     position: relative;
+    overflow: auto;
 }
 
 
 
 }
 
+
+// Make sure heights match here
 .design-car-absolute{
     position: absolute;
     bottom:0;
     left:25vw;
+    height: 30em;
 }
 
 .design-touch-absolute{
     position: absolute;
-    bottom:50vh;
+    bottom:0;
     left:50vw;
+    height: 20em;
 }
 
 .design-aamir-absolute{
     position: absolute;
-    bottom:50vh;
-    left:52vw;
+    bottom:0;
+    left:56vw;
+    height: 30em;
 }
 
 
