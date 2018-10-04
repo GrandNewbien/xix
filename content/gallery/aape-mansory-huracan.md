@@ -1,7 +1,6 @@
 +++
 colour = ""
 date = "2018-10-04T18:08:08+00:00"
-draft = true
 private = true
 sketchfab = "c592beec2dd54aa7b5c06f6a39670ffe"
 tags = []
