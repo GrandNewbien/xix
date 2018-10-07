@@ -67,8 +67,7 @@ $( ".navbar-toggle" ).click(function() {
 
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene, {
-  selector: ".parallax-select",
-  limitY: 0
+  selector: ".parallax-select"
 });
 
 console.log("scene bound")
