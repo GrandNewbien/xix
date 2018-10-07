@@ -32,6 +32,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/aape-mansory-huracan.md
 - content/gallery/gold-huracan-v2.md
 - content/gallery/venom-mclaren-650s-v2.md
 - content/gallery/Venom-McLaren-650s.md
