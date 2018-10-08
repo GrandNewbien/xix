@@ -268,19 +268,19 @@ body > nav > div.navbar-toggle > i {
 
 .design-car-absolute {
   position: absolute;
-  bottom: 0;
+  bottom: 10vh;
   left: 25vw;
   height: 30em; }
 
 .design-touch-absolute {
   position: absolute;
-  bottom: 0;
+  bottom: 10vh;
   left: 50vw;
   height: 20em; }
 
 .design-aamir-absolute {
   position: absolute;
-  bottom: 0;
+  bottom: 10vh;
   left: 56vw;
   height: 30em; }
 
@@ -292,6 +292,29 @@ body > nav > div.navbar-toggle > i {
 
 .design-touch {
   height: 20em; }
+
+@media only screen and (max-width: 580px) {
+  .design-car-absolute {
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+    height: 20em; }
+  .design-touch-absolute {
+    position: absolute;
+    bottom: 10vh;
+    left: 40vw;
+    height: 17em; }
+  .design-aamir-absolute {
+    position: absolute;
+    bottom: 10vh;
+    left: 56vw;
+    height: 25em; }
+  .design-car {
+    height: 20em; }
+  .design-touch {
+    height: 17em; }
+  .design-aamir {
+    height: 25em; } }
 
 .background-pricing {
   width: 100%;

@@ -12,25 +12,25 @@
 
 }
 
-
+$bottom: 10vh;
 // Make sure heights match here
 .design-car-absolute{
     position: absolute;
-    bottom:0;
+    bottom:$bottom;
     left:25vw;
     height: 30em;
 }
 
 .design-touch-absolute{
     position: absolute;
-    bottom:0;
+    bottom:$bottom;
     left:50vw;
     height: 20em;
 }
 
 .design-aamir-absolute{
     position: absolute;
-    bottom:0;
+    bottom:$bottom;
     left:56vw;
     height: 30em;
 }
@@ -44,4 +44,38 @@
 }
 .design-touch{
     height: 20em;  
+}
+
+@media only screen and (max-width: $min-width){
+    .design-car-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:5vw;
+        height: 20em;
+    }
+    
+    .design-touch-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:40vw;
+        height: 17em;
+    }
+    
+    .design-aamir-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:56vw;
+        height: 25em;
+    }
+
+    .design-car{
+        height: 20em;
+    }
+    .design-touch{
+        height: 17em;  
+    } 
+    .design-aamir{
+        height: 25em;
+    }
+
 }
