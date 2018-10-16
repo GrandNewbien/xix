@@ -14,6 +14,8 @@ pluralizeListTitles = false
     title = "XIX"
     txt = "Real time 3D configurator"
     img = "images/xixlogowhite.png"
+    buttonurl = "/contact"
+    buttontxt = "Book a session for SEMA 2018"
 
 [params.index.design]
 

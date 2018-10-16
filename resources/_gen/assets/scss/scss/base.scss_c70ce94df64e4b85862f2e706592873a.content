@@ -74,6 +74,9 @@ footer {
 video::-webkit-media-controls {
   display: none !important; }
 
+.herobutton {
+  background-color: rgba(27, 28, 26, 0.5); }
+
 img.herologo {
   max-width: 30%;
   height: auto;
@@ -227,6 +230,9 @@ body > nav > div.navbar-toggle > i {
 .navbar-toggle {
   display: none; }
 
+.homenav {
+  display: none; }
+
 @media only screen and (max-width: 580px) {
   .index-nav {
     background: transparent; }
@@ -265,6 +271,10 @@ body > nav > div.navbar-toggle > i {
     height: 100vh;
     position: relative;
     overflow: auto; }
+  #section2 .titletext {
+    margin-top: 5em;
+    left: 5em;
+    position: absolute; }
 
 .design-car-absolute {
   position: absolute;
@@ -298,23 +308,23 @@ body > nav > div.navbar-toggle > i {
     position: absolute;
     bottom: 10vh;
     left: 5vw;
-    height: 20em; }
+    height: 15em; }
   .design-touch-absolute {
     position: absolute;
     bottom: 10vh;
     left: 40vw;
-    height: 17em; }
+    height: 10em; }
   .design-aamir-absolute {
     position: absolute;
     bottom: 10vh;
     left: 56vw;
-    height: 25em; }
+    height: 15em; }
   .design-car {
-    height: 20em; }
+    height: 15em; }
   .design-touch {
-    height: 17em; }
+    height: 10em; }
   .design-aamir {
-    height: 25em; } }
+    height: 15em; } }
 
 .background-pricing {
   width: 100%;

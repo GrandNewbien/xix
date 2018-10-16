@@ -67,6 +67,10 @@ body > nav > div.navbar-toggle > i {
     display: none;
 }
 
+.homenav{
+    display: none;
+}
+
 @media only screen and (max-width: $min-width){
     
     .index-nav{

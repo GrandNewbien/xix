@@ -8,6 +8,11 @@
     overflow: auto;
 }
 
+.titletext {
+    margin-top: 5em;
+    left: 5em;
+    position: absolute;
+}
 
 
 }
@@ -47,35 +52,38 @@ $bottom: 10vh;
 }
 
 @media only screen and (max-width: $min-width){
+    $carsize:15em;
+    $tabletsize:10em;
+    $aamirsize:15em;
     .design-car-absolute{
         position: absolute;
         bottom:$bottom;
         left:5vw;
-        height: 20em;
+        height: $carsize;
     }
     
     .design-touch-absolute{
         position: absolute;
         bottom:$bottom;
         left:40vw;
-        height: 17em;
+        height: $tabletsize;
     }
     
     .design-aamir-absolute{
         position: absolute;
         bottom:$bottom;
         left:56vw;
-        height: 25em;
+        height: $aamirsize;
     }
 
     .design-car{
-        height: 20em;
+        height: $carsize;
     }
     .design-touch{
-        height: 17em;  
+        height: $tabletsize;  
     } 
     .design-aamir{
-        height: 25em;
+        height: $aamirsize;
     }
 
 }
