@@ -1,0 +1,89 @@
+#section2 {
+    background-image: linear-gradient(-90deg, $background, $background-grad);
+
+
+#scene{
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+.titletext {
+    margin-top: 5em;
+    left: 5em;
+    position: absolute;
+}
+
+
+}
+
+$bottom: 10vh;
+// Make sure heights match here
+.design-car-absolute{
+    position: absolute;
+    bottom:$bottom;
+    left:25vw;
+    height: 30em;
+}
+
+.design-touch-absolute{
+    position: absolute;
+    bottom:$bottom;
+    left:50vw;
+    height: 20em;
+}
+
+.design-aamir-absolute{
+    position: absolute;
+    bottom:$bottom;
+    left:56vw;
+    height: 30em;
+}
+
+
+.design-car{
+    height: 30em;
+}
+.design-aamir{
+    height: 30em;
+}
+.design-touch{
+    height: 20em;  
+}
+
+@media only screen and (max-width: $min-width){
+    $carsize:15em;
+    $tabletsize:10em;
+    $aamirsize:15em;
+    .design-car-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:5vw;
+        height: $carsize;
+    }
+    
+    .design-touch-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:40vw;
+        height: $tabletsize;
+    }
+    
+    .design-aamir-absolute{
+        position: absolute;
+        bottom:$bottom;
+        left:56vw;
+        height: $aamirsize;
+    }
+
+    .design-car{
+        height: $carsize;
+    }
+    .design-touch{
+        height: $tabletsize;  
+    } 
+    .design-aamir{
+        height: $aamirsize;
+    }
+
+}

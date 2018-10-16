@@ -74,14 +74,32 @@ footer {
 video::-webkit-media-controls {
   display: none !important; }
 
-.herobutton {
-  background-color: rgba(27, 28, 26, 0.5); }
+.herobtn {
+  background: rgba(27, 28, 26, 0.8);
+  border: 1px solid white;
+  color: white;
+  -webkit-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+  border-radius: 30px;
+  padding: 7px 40px;
+  display: inline-block;
+  margin-top: 20px; }
+
+.herobtn:hover {
+  background: #293744;
+  border: 1px solid #293744;
+  color: #fff !important; }
 
 img.herologo {
-  max-width: 30%;
+  max-width: 40%;
   height: auto;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222); }
+
+@media (min-width: 580px) {
+  img.herologo {
+    max-width: 40%;
+    height: auto; } }
 
 .car {
   opacity: 0;
@@ -266,65 +284,8 @@ body > nav > div.navbar-toggle > i {
     font-size: 1.2em; } }
 
 #section2 {
-  background-image: linear-gradient(-90deg, #293744, #394453); }
-  #section2 #scene {
-    height: 100vh;
-    position: relative;
-    overflow: auto; }
-  #section2 .titletext {
-    margin-top: 5em;
-    left: 5em;
-    position: absolute; }
-
-.design-car-absolute {
-  position: absolute;
-  bottom: 10vh;
-  left: 25vw;
-  height: 30em; }
-
-.design-touch-absolute {
-  position: absolute;
-  bottom: 10vh;
-  left: 50vw;
-  height: 20em; }
-
-.design-aamir-absolute {
-  position: absolute;
-  bottom: 10vh;
-  left: 56vw;
-  height: 30em; }
-
-.design-car {
-  height: 30em; }
-
-.design-aamir {
-  height: 30em; }
-
-.design-touch {
-  height: 20em; }
-
-@media only screen and (max-width: 580px) {
-  .design-car-absolute {
-    position: absolute;
-    bottom: 10vh;
-    left: 5vw;
-    height: 15em; }
-  .design-touch-absolute {
-    position: absolute;
-    bottom: 10vh;
-    left: 40vw;
-    height: 10em; }
-  .design-aamir-absolute {
-    position: absolute;
-    bottom: 10vh;
-    left: 56vw;
-    height: 15em; }
-  .design-car {
-    height: 15em; }
-  .design-touch {
-    height: 10em; }
-  .design-aamir {
-    height: 15em; } }
+  background-image: url(/images/FinalLookDesktop-Design.jpg);
+  background-position: center; }
 
 .background-pricing {
   width: 100%;
