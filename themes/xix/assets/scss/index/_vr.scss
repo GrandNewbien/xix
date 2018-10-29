@@ -4,14 +4,42 @@
     background-size: cover;
 }
 
-
-$bottom: 10vh;
-$vr4height: 30em;
 .vrscene{
     height: 100vh;
-    position: relative;
-    overflow: auto;
 }
+$vr4height: 13em;
+.VR4-absolute{
+    position: absolute;
+    top:8em;
+    left:25vw;
+    height: $vr4height;
+}
+.VR4{
+    height: $vr4height;
+}
+
+$vr3height: 19em;
+.VR3-absolute{
+    position: absolute;
+    bottom:4em;
+    left:25vw;
+    height: $vr3height;
+}
+.VR3{
+    height: $vr3height;
+}
+
+$vr2height: 19em;
+.VR2-absolute{
+    position: absolute;
+    bottom:8em;
+    left:28vw;
+    height: $vr2height;
+}
+.VR2{
+    height: $vr2height;
+}
+
 
 @media only screen and (max-width: $min-width){
 
@@ -19,7 +47,7 @@ $vr4height: 9em;
 .VR4-absolute{
     position: absolute;
     top:4em;
-    left:4vw;
+    left:20vw;
     height: $vr4height;
 }
 .VR4{
