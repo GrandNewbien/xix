@@ -1,0 +1,50 @@
+#section3{
+    background-image: url(/images/index/vr/1VRMobile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+$bottom: 10vh;
+$vr4height: 30em;
+.vrscene{
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+@media only screen and (max-width: $min-width){
+
+$vr4height: 9em;
+.VR4-absolute{
+    position: absolute;
+    top:4em;
+    left:4vw;
+    height: $vr4height;
+}
+.VR4{
+    height: $vr4height;
+}
+
+$vr3height: 13em;
+.VR3-absolute{
+    position: absolute;
+    bottom:4em;
+    left:10vw;
+    height: $vr3height;
+}
+.VR3{
+    height: $vr3height;
+}
+
+$vr2height: 13em;
+.VR2-absolute{
+    position: absolute;
+    bottom:8em;
+    left:8vw;
+    height: $vr2height;
+}
+.VR2{
+    height: $vr2height;
+}
+}
