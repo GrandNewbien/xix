@@ -5,16 +5,8 @@
                 {{if not .Params.private}}
                     <div class="card">
                         {{partial "sketchfabcard.html" .}}
+                        <div><img src="uploads/"></div>
                         <div class="galleryListInfo">
-                            <h4><a href="{{.URL}}">{{.Title}}</a></h4>
-                            <a data-fancybox data-src="#{{.Title | urlize}}" href="javascript:;">
-                                <i class="fas fa-plus-square"></i>
-                            </a>
-                            <div style="display: none;" id="{{.Title | urlize}}">
-                                <h2>{{.Title}}</h2>
-                                {{.Content}}
-                                {{partial "sketchfabcard.html" .}}
-                            </div>
                         </div>
                     </div>        
                 {{end}}
