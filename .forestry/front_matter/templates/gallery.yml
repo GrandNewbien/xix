@@ -31,6 +31,12 @@ fields:
     color_format: Hex
   name: colour
   label: Colour
+- type: text
+  name: listpicture
+  label: Thumbnail picture
+  description: Upload this in the media menu on the left.
+  config:
+    required: true
 pages:
 - content/gallery/eatpant.md
 - content/gallery/bugatti-chiron.md
