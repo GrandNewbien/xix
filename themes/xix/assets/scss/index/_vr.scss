@@ -40,6 +40,21 @@ $vr2height: 19em;
     height: $vr2height;
 }
 
+$vr5height: 8em;
+.VR5-absolute{
+    position: absolute;
+    bottom:2em;
+    width: 100vw;
+    height: $vr5height;
+}
+.VR5{
+    height: $vr5height;
+    display: block;
+    margin-left: 38vw;
+    margin-right:auto;
+
+}
+
 
 @media only screen and (max-width: $min-width){
 
@@ -75,4 +90,19 @@ $vr2height: 13em;
 .VR2{
     height: $vr2height;
 }
+$vr5height: 6em;
+.VR5-absolute{
+    position: absolute;
+    bottom:2em;
+    width: 100vw;
+    height: $vr5height;
+}
+.VR5{
+    height: $vr5height;
+    display: block;
+    margin-left: 7vw;
+    margin-right:auto;
+
+}
+
 }

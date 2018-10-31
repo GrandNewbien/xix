@@ -5,5 +5,5 @@ private = true
 sketchfab = "551479b1e1b84d02b68e3df281dc75d9"
 tags = []
 title = "Huracan"
-
+listpicture = "uploads/car.jpg"
 +++

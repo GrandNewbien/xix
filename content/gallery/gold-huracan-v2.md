@@ -5,5 +5,5 @@ private = true
 sketchfab = "0e28abdc079a4df38e9869fde2f39780"
 tags = []
 title = "Gold Huracan v2"
-
+listpicture = "uploads/car.jpg"
 +++

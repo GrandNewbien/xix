@@ -1,5 +1,19 @@
 #section4{
-    background-image: url(/images/index/online/DesktopBG.jpg);
+    background-image: url(/images/index/online/Wood.png);
     background-position: center;
     background-size: cover;
+}
+
+.sketchfab-embed-wrapper-card-index{
+    height:70vh;
+}
+
+
+.online{
+    height: 12em;
+    margin-right:auto;
+}
+
+@media only screen and (max-width: $min-width){
+
 }

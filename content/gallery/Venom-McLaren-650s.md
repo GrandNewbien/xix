@@ -5,5 +5,5 @@ private = true
 sketchfab = "455bcc0356724e50b352776bbe648485"
 tags = []
 title = "Venom McLaren 650s"
-
+listpicture = "uploads/car.jpg"
 +++

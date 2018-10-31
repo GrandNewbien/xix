@@ -5,6 +5,6 @@ private = false
 sketchfab = "2a845f9bf48c4ceaa37e520c161f9aad"
 tags = []
 title = "Veyron v3"
-
+listpicture = "uploads/car.jpg"
 +++
 Version 3

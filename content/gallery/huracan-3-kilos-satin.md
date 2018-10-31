@@ -5,5 +5,5 @@ private = true
 sketchfab = "9c0f9c0daaff4061b8969c5b6f62dff7"
 tags = []
 title = "Huracan 3 Kilos Satin"
-
+listpicture = "uploads/car.jpg"
 +++

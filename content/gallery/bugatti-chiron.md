@@ -6,5 +6,5 @@ private = false
 sketchfab = "17ab82200d3146dd81cbf184aedeb3de"
 tags = []
 title = "Bugatti Chiron"
-
+listpicture = "uploads/car.jpg"
 +++
