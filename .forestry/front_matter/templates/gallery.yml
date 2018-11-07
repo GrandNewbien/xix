@@ -38,6 +38,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/lambo.md
 - content/gallery/eatpant.md
 - content/gallery/bugatti-chiron.md
 - content/gallery/aape-mansory-huracan.md
@@ -56,4 +57,3 @@ pages:
 - content/gallery/audi.md
 - content/gallery/bemmer.md
 - content/gallery/rarri.md
-- content/gallery/lambo.md
