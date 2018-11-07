@@ -5,7 +5,7 @@ listpicture = "uploads/redbull huracan mansory.png"
 private = false
 sketchfab = "52de6e98660f4236b24cb5502b1a506d"
 tags = []
-title = "Mansoary Lamborghini Huracan - Red Bull Livery"
+title = "Mansory Huracan - Red Bull "
 
 +++
 Red Bull
