@@ -38,6 +38,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/lamborghini-huracan-performante.md
 - content/gallery/black-panther-ducati-panigale-959.md
 - content/gallery/camo-g63-amg-brabus.md
 - content/gallery/lambo.md
