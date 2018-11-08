@@ -38,6 +38,7 @@ fields:
   name: colour
   label: Colour
 pages:
+- content/gallery/camo-g63-amg-brabus.md
 - content/gallery/lambo.md
 - content/gallery/eatpant.md
 - content/gallery/bugatti-chiron.md
