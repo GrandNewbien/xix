@@ -1,7 +1,7 @@
 +++
 colour = ""
 date = "2018-11-08T00:33:39+00:00"
-listpicture = "upload/arobahn 720s.png"
+listpicture = "uploads/arobahn 720s.png"
 private = false
 sketchfab = "b16889b2d2f44c728e57c9ab464b038e"
 tags = []
