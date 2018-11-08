@@ -5,7 +5,7 @@ listpicture = "uploads/Blue and Chrome Veyron.png"
 private = false
 sketchfab = "2a845f9bf48c4ceaa37e520c161f9aad"
 tags = []
-title = "Veyron v3"
+title = "Blue on Chrome Veyron"
 
 +++
 Version 3
