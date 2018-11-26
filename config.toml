@@ -3,7 +3,7 @@ languageCode = "en-ca"
 title = "XIX3D"
 theme = "xix"
 pluralizeListTitles = false
-
+googleAnalytics = "UA-121049388-2"
 
 # Site Wide:
 
