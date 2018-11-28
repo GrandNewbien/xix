@@ -1,81 +1,38 @@
 baseURL = ""
-languageCode = "en-ca"
-title = "XIX3D"
-theme = "xix"
-pluralizeListTitles = false
 googleAnalytics = "UA-121049388-2"
-
-# Site Wide:
-
-# Index/Home page stuff:
-
-[params.index.hero]
-    video = "images/XIX3DIGTeaser.mp4"
-    title = "XIX"
-    txt = "Real time 3D configurator"
-    img = "images/xixlogowhite.png"
-    buttonurl = "/contact"
-    buttontxt = "Book a session for SEMA 2018"
-
-[params.index.design]
-
-[params.index.vr]
-
-[params.index.online]
-    sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
-[params.index.gallery]
-
-[params.index.pricing]
-    buttontxt = "Contact Us"
-[params.index.contact]
-
-# Pricing Page Stuff
-[params.pricing1]
-    pricingTitle1 = "TBD"
-    price1 = "TBD"
-    description1 = "TBD"
-    checklist = ["Includes the following features:",
-"XIX 3D branding within software",
-"Tech Support",
-"10-point touch configurator ",
-"VR compatible",
-"Standard inventory of car models",
-"On-Demand live renders (limit 100)",
-"Special indoor enviornments"
-]
-
-[params.pricing2]
-    pricingTitle2 = "TBD"
-    price2 = "TBD"
-    description2 = "TBD"
-    checklist = ["Customizable enviornments",
-    "Personalized branding within software",
-    "Tech Support",
-    "10-point touch configurator ",
-    "VR compatible",
-    "Advanced customization options",
-    "Advanced inventory of car models",
-    "On-Demand live renders (limit 300)",
-    "Special indoor + outdoor envionrments"
-]
-
-[params.pricing3]
-    pricingTitle3 = "TBD"
-    price3 = "TBD"
-    description3 = "TBD"
-    checklist = ["Tech Support",
-"10-point touch configurator ",
-"VR compatible",
-"Ultimate customization options",
-"Full inventory of car model",
-"sOn-Demand live renders (no limit)",
-"All envionrments",
-"Ultimate customizatibilty and assets",
-"Customizable enviornments",
-"Personalized branding within software"
-]
-
-
-# Footer Text
+languageCode = "en-ca"
+pluralizeListTitles = false
+theme = "xix"
+title = "XIX3D"
 [params.footer]
-    copyright = "2018 | XIX"
+copyright = "2018 | XIX"
+[params.index.contact]
+[params.index.design]
+[params.index.gallery]
+[params.index.hero]
+buttontxt = "Book a session for SEMA 2018"
+buttonurl = "/contact"
+img = "images/xixlogowhite.png"
+title = "XIX"
+txt = "Real time 3D configurator"
+video = "images/XIX3DIGTeaser.mp4"
+[params.index.online]
+sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
+[params.index.pricing]
+buttontxt = "Contact Us"
+[params.index.vr]
+[params.pricing1]
+checklist = ["Includes the following features:", "XIX 3D branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Standard inventory of car models", "On-Demand live renders (limit 100)", "Special indoor enviornments"]
+description1 = "TBD"
+price1 = "TBD"
+pricingTitle1 = "TBD"
+[params.pricing2]
+checklist = ["Customizable enviornments", "Personalized branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Advanced customization options", "Advanced inventory of car models", "On-Demand live renders (limit 300)", "Special indoor + outdoor envionrments"]
+description2 = "TBD"
+price2 = "TBD"
+pricingTitle2 = "TBD"
+[params.pricing3]
+checklist = ["Tech Support", "10-point touch configurator ", "VR compatible", "Ultimate customization options", "Full inventory of car model", "sOn-Demand live renders (no limit)", "All envionrments", "Ultimate customizatibilty and assets", "Customizable enviornments", "Personalized branding within software"]
+description3 = "TBD"
+price3 = "TBD"
+pricingTitle3 = "TBD"
