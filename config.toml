@@ -10,7 +10,7 @@ copyright = "2018 | XIX"
 [params.index.design]
 [params.index.gallery]
 [params.index.hero]
-buttontxt = "Book a session for SEMA 2018"
+buttontxt = "Contact Us"
 buttonurl = "/contact"
 img = "images/xixlogowhite.png"
 title = "XIX"
