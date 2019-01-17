@@ -3,7 +3,7 @@ googleAnalytics = "UA-121049388-2"
 languageCode = "en-ca"
 pluralizeListTitles = false
 theme = "xix"
-title = "XIX3D"
+title = "xix3D"
 [params.footer]
 copyright = "2018 | XIX"
 [params.index.contact]
