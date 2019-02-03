@@ -40,6 +40,11 @@
     padding: 20px 10px;
     display: block;
   }
+  .monthly {
+    font-size: 1em;
+    padding: 0px 0px 20px 0px;
+  }
+  
   .pricing-box:nth-child(2) .price {
     background: darken($accent-main,33%);
   }
@@ -96,7 +101,7 @@
   .pricing-box:nth-child(2) {
     background-image: linear-gradient($accent-main, $background-grad);
     h2{
-        color: darken($accent-main,25%)
+        color: $accent
     }
   }
   .pricing-box:hover {
@@ -107,9 +112,10 @@
     padding: 3px 0;
     font-size: 0.95em;
   }
+
   .pricing-table ul {
     color: #000;
-    padding: 15px 60px;
+    padding: 15px 20px;
     text-align: left;
   }
 

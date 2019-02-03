@@ -23,16 +23,19 @@ buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricing1]
 checklist = ["Includes the following features:", "XIX 3D branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Standard inventory of car models", "On-Demand live renders (limit 100)", "Special indoor enviornments"]
-description1 = "TBD"
-price1 = "TBD"
-pricingTitle1 = "TBD"
+description1 = "Touch"
+price1 = "$5000"
+monthlyprice1="$200 / Month"
+pricingTitle1 = "Standard"
 [params.pricing2]
 checklist = ["Customizable enviornments", "Personalized branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Advanced customization options", "Advanced inventory of car models", "On-Demand live renders (limit 300)", "Special indoor + outdoor envionrments"]
-description2 = "TBD"
-price2 = "TBD"
-pricingTitle2 = "TBD"
+description2 = "Touch/Bespoke"
+price2 = "$9000"
+monthlyprice2="$220 / Month"
+pricingTitle2 = "Premuim"
 [params.pricing3]
-checklist = ["Tech Support", "10-point touch configurator ", "VR compatible", "Ultimate customization options", "Full inventory of car model", "sOn-Demand live renders (no limit)", "All envionrments", "Ultimate customizatibilty and assets", "Customizable enviornments", "Personalized branding within software"]
-description3 = "TBD"
-price3 = "TBD"
-pricingTitle3 = "TBD"
+checklist = ["Tech Support", "10-point touch configurator ", "VR compatible", "Ultimate customization options", "Full inventory of car model", "On-Demand live renders (no limit)", "All envionrments", "Ultimate customizatibilty and assets", "Customizable enviornments", "Personalized branding within software"]
+description3 = "Touch/VR/Bespoke"
+price3 = "$14000"
+monthlyprice3="$250 / Month"
+pricingTitle3 = "Ultimate"
