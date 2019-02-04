@@ -22,7 +22,7 @@ sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricing1]
-checklist = ["Includes the following features:", "XIX 3D branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Standard inventory of car models", "On-Demand live renders (limit 100)", "Special indoor enviornments"]
+checklist = ["Authentic Vinyl Finishes", "Accurate Color Hue Representation", "Realistic 3D Car Models"]
 description1 = "TBD"
 price1 = "TBD"
 pricingTitle1 = "TBD"
