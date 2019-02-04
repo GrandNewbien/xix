@@ -35,7 +35,7 @@ checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermark
 description2 = "Touch / Bespoke"
 monthlyprice2 = "+ $219 / Month"
 price2 = "$8,999"
-pricingTitle2 = "Premuim"
+pricingTitle2 = "Premium"
 [params.pricing3]
 boldlistpoint3 = "Everything in Premuim"
 checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive life scale environments"]
