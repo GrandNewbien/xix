@@ -42,7 +42,7 @@
     font-size: 2em;
     font-weight: 600;
     position: relative;
-    padding: 20px 10px;
+    padding: 20px 0px 0px 0px;
     display: block;
   }
   .monthly {
@@ -98,7 +98,6 @@
   .pricing-table-top ul li {
     padding: 3px 0;
     font-size: 0.95em;
-
   }
 
   .pricing-table-top ul {
@@ -149,7 +148,14 @@
     padding: 15px 20px;
     text-align: left;
   }
-
+.competitive{
+  column-count: 1 !important;
+  text-align: center;
+  content:'✓';
+  padding: 0;
+  margin-left: 0 !important; 
+  font-size: 2em;
+}
   li {
       color:$accent;
   }
@@ -159,7 +165,7 @@
   
   ul li:before {
     content: '✓';
-    color: $accent;
+    color: greenyellow;
   }
   @media (max-width: 1000px) {
     .pricing-table {

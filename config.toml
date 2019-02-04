@@ -22,25 +22,25 @@ sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricingtop]
-checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
+checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support"]
 pricingtitle="All Plans Include"
 [params.pricing1]
 checklist = ["Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
 description1 = "Touch"
-price1 = "$TBD"
-monthlyprice1 = "$TBD / Month"
+price1 = "$4999"
+monthlyprice1 = "+ $199 / Month"
 pricingTitle1 = "Standard"
 [params.pricing2]
 checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments", "Competitive Advantage"]
 description2 = "Touch / Bespoke"
 boldlistpoint2 = "Everything in Standard"
-price2 = "$TBD"
-monthlyprice2 = "$TBD / Month"
+price2 = "$8999"
+monthlyprice2 = "+ $219 / Month"
 pricingTitle2 = "Premuim"
 [params.pricing3]
 checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive life scale environments","Competitive Advantage"]
 description3 = "Touch / Bespoke / VR"
 boldlistpoint3 = "Everything in Premuim"
-price3 = "$TBD"
-monthlyprice3 = "$TBD / Month"
+price3 = "$13,999"
+monthlyprice3 = "+ $249 / Month"
 pricingTitle3 = "Ultimate"
