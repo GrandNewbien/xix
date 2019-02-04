@@ -44,5 +44,5 @@ monthlyprice3 = "+ $249 / Month"
 price3 = "$13,999"
 pricingTitle3 = "Ultimate"
 [params.pricingtop]
-checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "First 3 Months Grace Period on Subscription"]
+checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "First 3 Months Free"]
 pricingtitle = "All Plans Include"
