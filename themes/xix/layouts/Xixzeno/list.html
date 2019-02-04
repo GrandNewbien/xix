@@ -2,19 +2,6 @@
 <div class="background-pricing">
   <div class="wrapper">
 <meta name="robots" content="noindex" />
-<div class="pricing-table-top">
-  <div class="pricing-box">
-    <h2>{{.Site.Params.pricingtop.pricingTitle}}</h2>
-    <p class="description">{{.Site.Params.pricingtop.description}}</p>
-    <span class="pricing-table-divider"></span>
-    <ul>
-    {{ range $pricing := .Site.Params.pricingtop.checklist }}
-        <li> {{ $pricing }}</li>
-    {{end}}
-    </ul>
-    <ul class="competitive"><li class="competitive"> Competitive Advantage</li></ul>
-  </div>
-</div>
     <div class="pricing-table">
       <div class="pricing-box">
         <h2>{{.Site.Params.pricing1.pricingTitle1}}</h2>
@@ -55,6 +42,22 @@
         </ul>
       </div>
     </div>
+    <div class="pricing-table-top">
+        <div class="pricing-box">
+          <h2>{{.Site.Params.pricingtop.pricingTitle}}</h2>
+          <p class="description">{{.Site.Params.pricingtop.description}}</p>
+          <span class="pricing-table-divider"></span>
+          <ul>
+          {{ range $pricing := .Site.Params.pricingtop.checklist }}
+              <li> {{ $pricing }}</li>
+          {{end}}
+          </ul>
+          <ul class="competitive"><li class="competitive"> Competitive Advantage</li></ul>
+        </div>
+      </div>
+      <p><b>{{.Site.Params.pricing.disclaimer}}</b></p>
   </div>
+  
 </div>
+
 {{end}}

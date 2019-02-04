@@ -44,3 +44,5 @@ boldlistpoint3 = "Everything in Premuim"
 price3 = "$13,999"
 monthlyprice3 = "+ $249 / Month"
 pricingTitle3 = "Ultimate"
+[params.pricing]
+disclaimer = "Disclaimer: Prices in USD"

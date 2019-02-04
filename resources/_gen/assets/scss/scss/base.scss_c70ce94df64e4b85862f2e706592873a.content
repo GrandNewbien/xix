@@ -491,12 +491,16 @@ body > nav > div.navbar-toggle > i {
   display: -ms-grid;
   display: grid;
   grid-row-gap: 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center; }
 
 .pricing-table-top ul li {
   padding: 3px 0;
   font-size: 0.95em; }
+
+p {
+  color: white; }
 
 .pricing-table-top ul {
   color: #000;
