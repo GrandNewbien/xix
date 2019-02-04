@@ -24,21 +24,21 @@ buttontxt = "Contact Us"
 [params.pricing]
 disclaimer = "*Prices in USD"
 [params.pricing1]
-checklist = ["Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
+checklist = ["Frequent Updates", "Remote Tech Support"]
 description1 = "Touch"
 monthlyprice1 = "+ $199 / Month"
 price1 = "$4,999"
 pricingTitle1 = "Standard"
 [params.pricing2]
 boldlistpoint2 = "Everything in Standard"
-checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments", "Competitive Advantage"]
+checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments"]
 description2 = "Touch / Bespoke"
 monthlyprice2 = "+ $219 / Month"
 price2 = "$8,999"
 pricingTitle2 = "Premuim"
 [params.pricing3]
 boldlistpoint3 = "Everything in Premuim"
-checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive life scale environments", "Competitive Advantage"]
+checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive life scale environments"]
 description3 = "Touch / Bespoke / VR"
 monthlyprice3 = "+ $249 / Month"
 price3 = "$13,999"
