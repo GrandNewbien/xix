@@ -22,20 +22,20 @@ sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricing1]
-checklist = ["Includes the following features:", "XIX 3D branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Standard inventory of car models", "On-Demand live renders (limit 100)", "Special indoor enviornments"]
+checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
 description1 = "Touch"
-price1 = "$5000"
-monthlyprice1="$200 / Month"
+price1 = "$TBD"
+monthlyprice1 = "$TBD / Month"
 pricingTitle1 = "Standard"
 [params.pricing2]
-checklist = ["Customizable enviornments", "Personalized branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Advanced customization options", "Advanced inventory of car models", "On-Demand live renders (limit 300)", "Special indoor + outdoor envionrments"]
-description2 = "Touch/Bespoke"
-price2 = "$9000"
-monthlyprice2="$220 / Month"
+checklist = ["Everything in Standard", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Early Access Updates", "Additional Environments", "Competitive Advantage"]
+description2 = "Touch / Bespoke"
+price2 = "$TBD"
+monthlyprice2 = "$TBD / Month"
 pricingTitle2 = "Premuim"
 [params.pricing3]
-checklist = ["Tech Support", "10-point touch configurator ", "VR compatible", "Ultimate customization options", "Full inventory of car model", "On-Demand live renders (no limit)", "All envionrments", "Ultimate customizatibilty and assets", "Customizable enviornments", "Personalized branding within software"]
-description3 = "Touch/VR/Bespoke"
-price3 = "$14000"
-monthlyprice3="$250 / Month"
+checklist = ["Everything in Premuim", "VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Competitive Advantage"]
+description3 = "Touch / Bespoke / VR"
+price3 = "$TBD"
+monthlyprice3 = "$TBD / Month"
 pricingTitle3 = "Ultimate"
