@@ -22,7 +22,7 @@ sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricing1]
-checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support"]
+checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
 description1 = "Touch"
 price1 = "$4,999"
 pricingTitle1 = "Standard"
