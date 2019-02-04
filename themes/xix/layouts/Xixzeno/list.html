@@ -1,6 +1,19 @@
 {{define "main"}}
 <div class="background-pricing">
   <div class="wrapper">
+<meta name="robots" content="noindex" />
+<div class="pricing-table-top">
+  <div class="pricing-box">
+    <h2>{{.Site.Params.pricingtop.pricingTitle}}</h2>
+    <p class="description">{{.Site.Params.pricingtop.description}}</p>
+    <span class="pricing-table-divider"></span>
+    <ul>
+    {{ range $pricing := .Site.Params.pricingtop.checklist }}
+        <li> {{ $pricing }}</li>
+    {{end}}
+    </ul>
+  </div>
+</div>
     <div class="pricing-table">
       <div class="pricing-box">
         <h2>{{.Site.Params.pricing1.pricingTitle1}}</h2>
@@ -21,6 +34,7 @@
         <p class="description">{{.Site.Params.pricing2.description2}}</p>
         <span class="pricing-table-divider"></span>
         <ul>
+            <li><b> {{.Site.Params.pricing2.boldlistpoint2}}</b></li>
         {{ range $pricing := .Site.Params.pricing2.checklist }}
             <li> {{ $pricing }}</li>
         {{end}}
@@ -33,6 +47,7 @@
         <p class="description">{{.Site.Params.pricing3.description3}}</p>
         <span class="pricing-table-divider"></span>
         <ul>
+        <li><b> {{.Site.Params.pricing3.boldlistpoint3}}</b></li>
         {{ range $pricing := .Site.Params.pricing3.checklist }}
           <li> {{ $pricing }}</li>
         {{end}}
