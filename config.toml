@@ -38,7 +38,7 @@ price2 = "$8,999"
 pricingTitle2 = "Premium"
 [params.pricing3]
 boldlistpoint3 = "Everything in Premuim"
-checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive life scale environments"]
+checklist = ["VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Immersive Life Scale Environments"]
 description3 = "Touch / Bespoke / VR"
 monthlyprice3 = "+ $249 / Month"
 price3 = "$13,999"
