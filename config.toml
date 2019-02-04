@@ -22,10 +22,10 @@ sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 buttontxt = "Contact Us"
 [params.index.vr]
 [params.pricing1]
-checklist = ["Authentic Vinyl Finishes", "Accurate Color Hue Representation", "Realistic 3D Car Models"]
-description1 = "TBD"
-price1 = "TBD"
-pricingTitle1 = "TBD"
+checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "On-Demand PDF Spec Sheets", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Early Access Updates", "Additional Environments", "VR-Ready Computer ", "Virtual Reality System", "Design Vehicles in VR", "Custom 3D VR Home Button", "Competitive Advantage"]
+description1 = "Touch"
+price1 = "$4,999"
+pricingTitle1 = "Standard"
 [params.pricing2]
 checklist = ["Customizable enviornments", "Personalized branding within software", "Tech Support", "10-point touch configurator ", "VR compatible", "Advanced customization options", "Advanced inventory of car models", "On-Demand live renders (limit 300)", "Special indoor + outdoor envionrments"]
 description2 = "TBD"
