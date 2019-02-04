@@ -27,14 +27,14 @@ pricingtitle="All Plans Include"
 [params.pricing1]
 checklist = ["Frequent Updates", "Remote Tech Support", "Competitive Advantage "]
 description1 = "Touch"
-price1 = "$4999"
+price1 = "$4,999"
 monthlyprice1 = "+ $199 / Month"
 pricingTitle1 = "Standard"
 [params.pricing2]
 checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments", "Competitive Advantage"]
 description2 = "Touch / Bespoke"
 boldlistpoint2 = "Everything in Standard"
-price2 = "$8999"
+price2 = "$8,999"
 monthlyprice2 = "+ $219 / Month"
 pricingTitle2 = "Premuim"
 [params.pricing3]
