@@ -31,7 +31,7 @@ price1 = "$4,999"
 pricingTitle1 = "Standard"
 [params.pricing2]
 boldlistpoint2 = "EVERYTHING IN STANDARD"
-checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments"]
+checklist = ["Early Access Updates", "Your Logo in Software", "Bespoke Watermarked PDF", "Personalized Home Button", "Additional Environments", "Additional Vehicles"]
 description2 = "Touch / Bespoke"
 monthlyprice2 = "+ $219 / Month"
 price2 = "$8,999"
