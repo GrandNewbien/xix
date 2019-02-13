@@ -7,8 +7,8 @@ sections:
 - type: directory
   path: ''
   label: Config
-  create: documents
-  match: "**/*"
+  create: all
+  match: config.toml
 - type: directory
   path: content
   label: Pages
