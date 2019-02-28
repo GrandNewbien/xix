@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="contactform">
-    <form class="form" action="https://formspree.io/contact@xix3d.com" method="POST">
+    <form class="form" action="https://formspree.io/{{.Site.Params.contact.email}}" method="POST">
         <h2>CONTACT US</h2>
         <p type="Name:"><input name="name" placeholder="Firstname Lastname"></input></p>
         <p type="Email:"><input name="email" placeholder="you@email"></input></p>
