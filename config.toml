@@ -4,6 +4,8 @@ languageCode = "en-ca"
 pluralizeListTitles = false
 theme = "xix"
 title = "xix3D"
+[params.contact]
+email = "contact@xix3d.com"
 [params.footer]
 copyright = "2019 | XIX"
 [params.index.contact]
@@ -46,5 +48,3 @@ pricingTitle3 = "Ultimate"
 [params.pricingtop]
 checklist = ["Realistic 3D Car Models", "Accurate Color Hue Representation", "Authentic Vinyl Finishes", "Create Custom Print Ready Colors", "Detailed Car Customization Options", "Dynamic Outdoor and Indoor Environments", "Real-Time Lighting and Reflections", "E-mail Multiple Renders", "Engage Customers at Home", "Frequent Updates", "Remote Tech Support", "Custom Built Computer", "27\" Touch Screen Monitor", "Free Shipping (Canada and USA)"]
 pricingtitle = "All Plans Include"
-[params.contact]
-email = "https://formspree.io/contact@xix3d.com"
