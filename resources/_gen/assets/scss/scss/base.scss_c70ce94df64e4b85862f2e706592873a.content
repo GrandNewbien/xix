@@ -10,6 +10,9 @@ ol {
 footer {
   margin: 3rem; }
 
+footer a {
+  color: #394453; }
+
 .layer h1 {
   color: white;
   font-size: 10rem;
