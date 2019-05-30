@@ -8,10 +8,11 @@ ol {
   padding: 0; }
 
 footer {
-  margin: 3rem; }
+  margin: 3rem;
+  color: #63768f; }
 
 footer a {
-  color: #394453; }
+  color: #9daabb; }
 
 .layer h1 {
   color: white;
@@ -413,7 +414,8 @@ body > nav > div.navbar-toggle > i {
 .wrapper {
   width: 95%;
   max-width: 1200px;
-  margin: 10em auto; }
+  margin: 10em auto;
+  margin-bottom: 1em; }
 
 .pricing-table-top h2 {
   font-size: 1.5em;
@@ -641,7 +643,8 @@ div.galleryListInfo > a {
   background: rgba(27, 28, 26, 0.8);
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
+  margin: calc(48vh - 220px) auto;
+  margin-bottom: 5em;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
