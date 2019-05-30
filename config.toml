@@ -17,7 +17,7 @@ buttonurl = "/contact"
 img = "images/xixlogowhite.png"
 title = "XIX"
 txt = "Real-time 3D Wrap Configurator"
-video = "images/XIX3DIGTeaser.mp4"
+video = "images/xix3doptimized.mp4"
 [params.index.online]
 sketchfablink = "17ab82200d3146dd81cbf184aedeb3de"
 [params.index.pricing]
